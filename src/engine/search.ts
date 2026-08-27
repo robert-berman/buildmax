@@ -6,6 +6,7 @@ import { getItem, itemIconUrl, type ItemStatic } from "@/data/ddragon";
 import { getStatsProvider } from "@/data/stats";
 import type { BuildStat, Role } from "@/data/stats/types";
 import { parseQuery } from "./parse";
+import { explainBuild } from "./explain";
 import { wilsonLowerBound, winRate } from "./rank";
 import {
   getChampionProfile,
@@ -69,6 +70,7 @@ function observedResult(build: BuildStat, parsed: ParsedQuery, profile: Champion
     .filter((x): x is ResultItem => Boolean(x));
   const boots = build.boots != null ? toResultItem(build.boots, parsed.requiredItemIds, true) : null;
   const synergy = scoreBuildSynergy(build.items, profile);
+  const explanation = explainBuild(build.champion, build.items, build.boots);
   const matched = parsed.requiredItemIds.filter((id) => build.items.includes(id) || build.boots === id);
 
   return {
@@ -89,7 +91,8 @@ function observedResult(build: BuildStat, parsed: ParsedQuery, profile: Champion
     observedScore: wilsonLowerBound(build.wins, build.games),
     gameStage: build.gameStage,
     synergyScore: synergy.score,
-    synergyReasons: synergy.reasons,
+    synergyReasons: explanation.topReasons,
+    explanation,
     matchedRequiredItemIds: matched,
   };
 }
@@ -106,6 +109,7 @@ function recommendedResult(
     .map((id) => toResultItem(id, parsed.requiredItemIds, false))
     .filter((x): x is ResultItem => Boolean(x));
   const boots = rec.boots != null ? toResultItem(rec.boots, parsed.requiredItemIds, true) : null;
+  const explanation = explainBuild(parsed.championId as string, rec.items, rec.boots);
   const matched = parsed.requiredItemIds.filter((id) => rec.items.includes(id) || rec.boots === id);
 
   return {
@@ -126,7 +130,8 @@ function recommendedResult(
     observedScore: null,
     gameStage: null,
     synergyScore: rec.synergy.score,
-    synergyReasons: rec.synergy.reasons,
+    synergyReasons: explanation.topReasons,
+    explanation,
     matchedRequiredItemIds: matched,
   };
 }

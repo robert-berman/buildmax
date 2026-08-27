@@ -4,6 +4,11 @@
 // Aggregating from stored raw rows means we can re-tune grouping/thresholds
 // without re-crawling. Builds are grouped by their CORE (top-3 by cost) items so
 // samples don't fragment across every situational 5th/6th item.
+//
+// Grouping is strictly PER-PATCH: item and champion balance changes between
+// patches, so mixing patches would corrupt the numbers. At dev-key volume this
+// makes per-patch builds sparse (expected); a production key fixes that with
+// far more games per patch.
 
 import { allChampions, getItem } from "@/data/ddragon";
 import type { GameStage, Role } from "@/data/stats/types";
@@ -97,8 +102,8 @@ export function aggregateParticipants(
   const minPairGames = opts.minPairGames ?? 3;
 
   const builds = new Map<string, BuildAcc>();
-  const roleGames = new Map<string, { games: number; wins: number }>();
-  const champGames = new Map<string, number>();
+  const roleGames = new Map<string, { games: number; wins: number }>(); // champion|role|patch
+  const champGames = new Map<string, number>(); // champion|patch
   const pairs = new Map<string, PairRow>();
   const patches = new Set<string>();
   let participantsUsed = 0;
@@ -110,19 +115,20 @@ export function aggregateParticipants(
     participantsUsed++;
     const win = r.win ? 1 : 0;
 
-    const key = `${r.champion}|${r.role}|${r.patch}|${core.join(".")}`;
-    let acc = builds.get(key);
+    const buildKey = `${r.champion}|${r.role}|${r.patch}|${core.join(".")}`;
+    let acc = builds.get(buildKey);
     if (!acc) {
       acc = { champion: r.champion, role: r.role, patch: r.patch, items: core, games: 0, wins: 0, bootsFreq: new Map() };
-      builds.set(key, acc);
+      builds.set(buildKey, acc);
     }
     acc.games++; acc.wins += win;
     if (r.boots != null) acc.bootsFreq.set(r.boots, (acc.bootsFreq.get(r.boots) ?? 0) + 1);
 
-    const rk = `${r.champion}|${r.role}`;
+    const rk = `${r.champion}|${r.role}|${r.patch}`;
     const rg = roleGames.get(rk) ?? { games: 0, wins: 0 };
     rg.games++; rg.wins += win; roleGames.set(rk, rg);
-    champGames.set(r.champion, (champGames.get(r.champion) ?? 0) + 1);
+    const ck = `${r.champion}|${r.patch}`;
+    champGames.set(ck, (champGames.get(ck) ?? 0) + 1);
 
     for (let i = 0; i < core.length; i++) {
       for (let j = i + 1; j < core.length; j++) {
@@ -140,7 +146,7 @@ export function aggregateParticipants(
   const buildRows: BuildRow[] = [];
   for (const acc of builds.values()) {
     if (acc.games < minBuildGames) continue;
-    const rg = roleGames.get(`${acc.champion}|${acc.role}`)!;
+    const rg = roleGames.get(`${acc.champion}|${acc.role}|${acc.patch}`)!;
     let boots: number | null = null;
     let bootsMax = 0;
     for (const [b, n] of acc.bootsFreq) if (n > bootsMax) ((bootsMax = n), (boots = b));
@@ -154,13 +160,12 @@ export function aggregateParticipants(
 
   const aggRows: AggRow[] = [];
   for (const [rk, rg] of roleGames) {
-    const [champion, role] = rk.split("|") as [string, Role];
-    const patch = [...patches][0] ?? "";
+    const [champion, role, patch] = rk.split("|") as [string, Role, string];
+    const champTotal = champGames.get(`${champion}|${patch}`) ?? rg.games;
     aggRows.push({
       id: `${champion}|${role}|${patch}|${opts.rank}`,
       champion, role, patch, rank: opts.rank, games: rg.games, wins: rg.wins,
-      pickRate: (champGames.get(champion) ?? rg.games) > 0 ? rg.games / (champGames.get(champion) ?? rg.games) : 0,
-      banRate: null,
+      pickRate: champTotal > 0 ? rg.games / champTotal : 0, banRate: null,
     });
   }
 

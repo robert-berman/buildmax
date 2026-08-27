@@ -33,6 +33,20 @@ export interface ResultItem {
 
 export type Provenance = "observed" | "recommended";
 
+/** Per-item "why" (item -> champion ability/stat and item -> item interactions). */
+export interface ItemWhy {
+  itemId: number;
+  name: string;
+  reasons: string[];
+}
+
+/** Layered synergy explanation for a whole build. */
+export interface BuildExplanation {
+  summary: string; // build identity
+  topReasons: string[]; // best 3-4 build-level reasons
+  perItem: ItemWhy[];
+}
+
 export interface SearchResult {
   id: string;
   provenance: Provenance;
@@ -56,7 +70,8 @@ export interface SearchResult {
 
   // Synergy axis (always present).
   synergyScore: number; // 0..1
-  synergyReasons: string[];
+  synergyReasons: string[]; // = explanation.topReasons (kept for compact display)
+  explanation: BuildExplanation;
 
   matchedRequiredItemIds: number[];
 }

@@ -38,6 +38,8 @@ function ItemPip({ item }: { item: ResultItem }) {
 export function BuildCard({ result, rank }: { result: SearchResult; rank: number }) {
   const observed = result.provenance === "observed";
   const synergyPct = Math.round(result.synergyScore * 100);
+  const requestedIds = new Set(result.path.filter((p) => p.requested).map((p) => p.id));
+  const requestedWhy = result.explanation.perItem.filter((w) => requestedIds.has(w.itemId) && w.reasons.length > 0);
 
   return (
     <div className="rounded-xl border border-line bg-bg-card p-4 transition-colors hover:bg-bg-hover">
@@ -103,24 +105,35 @@ export function BuildCard({ result, rank }: { result: SearchResult; rank: number
         </div>
       </div>
 
-      {/* Synergy */}
+      {/* Synergy — the "why" */}
       <div className="mt-3 border-t border-line pt-3">
         <div className="mb-1 flex items-center justify-between text-xs">
-          <span className="font-medium text-gold">Synergy</span>
+          <span className="font-medium text-gold">Synergy — why this works</span>
           <span className="text-gold-bright/60">{synergyPct}/100</span>
         </div>
         <div className="h-1.5 w-full overflow-hidden rounded-full bg-bg">
           <div className="h-full rounded-full bg-gold" style={{ width: `${synergyPct}%` }} />
         </div>
-        {result.synergyReasons.length > 0 && (
+
+        <p className="mt-2 text-xs leading-snug text-gold-bright/80">{result.explanation.summary}</p>
+
+        {result.explanation.topReasons.length > 0 && (
           <ul className="mt-2 space-y-1">
-            {result.synergyReasons.map((reason, i) => (
+            {result.explanation.topReasons.map((reason, i) => (
               <li key={i} className="text-xs leading-snug text-gold-bright/70">
                 • {reason}
               </li>
             ))}
           </ul>
         )}
+
+        {requestedWhy.map((w) => (
+          <div key={w.itemId} className="mt-2 rounded-md border border-gold/20 bg-gold/5 p-2">
+            <span className="text-xs font-medium text-gold">Why {w.name}: </span>
+            <span className="text-xs leading-snug text-gold-bright/75">{w.reasons.join(" ")}</span>
+          </div>
+        ))}
+
         {!observed && (
           <p className="mt-2 text-[11px] italic text-gold-bright/40">
             Suggested by item/champion fit — not tied to a win-rate sample.
