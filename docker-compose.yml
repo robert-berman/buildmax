@@ -1,0 +1,37 @@
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: buildmax
+      POSTGRES_PASSWORD: buildmax
+      POSTGRES_DB: buildmax
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U buildmax -d buildmax"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      # The app runs out-of-the-box on the seed provider (no DB required).
+      # Switch to "postgres" once the stats tables are migrated + seeded.
+      STATS_PROVIDER: ${STATS_PROVIDER:-seed}
+      DATABASE_URL: postgres://buildmax:buildmax@db:5432/buildmax
+      NODE_ENV: production
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

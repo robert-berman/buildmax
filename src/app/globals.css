@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Tailwind v4 CSS-first theme. Tokens here generate utilities like bg-bg-card,
+   text-gold, border-line, etc. */
+@theme {
+  --color-bg: #0a0e14;
+  --color-bg-soft: #0f141c;
+  --color-bg-card: #141b26;
+  --color-bg-hover: #1a2432;
+  --color-line: #243044;
+
+  --color-gold: #c8aa6e;
+  --color-gold-bright: #f0e6d2;
+  --color-accent: #3b82f6;
+
+  --color-win-high: #4ade80;
+  --color-win-mid: #facc15;
+  --color-win-low: #f87171;
+
+  --font-sans: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html,
+body {
+  background-color: var(--color-bg);
+  color: var(--color-gold-bright);
+  font-family: var(--font-sans);
+}
+
+* {
+  scrollbar-color: var(--color-line) transparent;
+}
+
+/* Subtle radial backdrop so the dark UI is not flat. */
+body {
+  background-image:
+    radial-gradient(60rem 60rem at 80% -10%, rgba(59, 130, 246, 0.08), transparent),
+    radial-gradient(50rem 50rem at 0% 0%, rgba(200, 170, 110, 0.06), transparent);
+  min-height: 100vh;
+}
