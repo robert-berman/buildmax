@@ -2,7 +2,7 @@
 // a GIN index so "builds that contain item X" is an indexed containment query
 // (items @> ARRAY[x]), and a btree index on the champion/role/patch/rank lookup.
 
-import { boolean, doublePrecision, index, integer, jsonb, pgTable, text } from "drizzle-orm/pg-core";
+import { boolean, doublePrecision, index, integer, jsonb, pgTable, text, timestamp } from "drizzle-orm/pg-core";
 
 export const champions = pgTable("champions", {
   id: text("id").primaryKey(), // e.g. "Hecarim"
@@ -76,3 +76,30 @@ export const itemPairStats = pgTable(
   },
   (t) => [index("pair_champ_role_idx").on(t.champion, t.role, t.patch, t.rank)],
 );
+
+// Raw per-participant extracts from ingested matches. This is the durable source
+// layer: aggregates (build_stats etc.) are recomputed from here, so we can
+// re-tune grouping/thresholds WITHOUT re-crawling the API. Stores the full core
+// item set; the aggregator decides how to bucket it.
+export const rawParticipants = pgTable(
+  "raw_participants",
+  {
+    id: text("id").primaryKey(), // `${matchId}:${participantIndex}`
+    matchId: text("match_id").notNull(),
+    patch: text("patch").notNull(),
+    champion: text("champion").notNull(),
+    role: text("role").notNull(),
+    win: boolean("win").notNull(),
+    items: integer("items").array().notNull(),
+    boots: integer("boots"),
+  },
+  (t) => [index("raw_patch_idx").on(t.patch), index("raw_match_idx").on(t.matchId)],
+);
+
+// Dedupe ledger: match ids we've already pulled, so repeat/incremental runs never
+// re-spend the API rate budget on the same matches.
+export const processedMatches = pgTable("processed_matches", {
+  matchId: text("match_id").primaryKey(),
+  patch: text("patch").notNull(),
+  ingestedAt: timestamp("ingested_at").defaultNow().notNull(),
+});
