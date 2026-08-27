@@ -1,7 +1,9 @@
 // Postgres-backed StatsProvider (Drizzle). Serves whatever the ingestion
-// pipeline wrote: it auto-selects the newest patch present and does not hard-code
-// a rank bracket, so the engine and UI work unchanged on real data. Reads
-// precomputed aggregate tables only -- never aggregates raw matches at query time.
+// pipeline wrote and does not hard-code a rank bracket, so the engine and UI
+// work unchanged on real data. Patches stay strictly separate (no bucketing);
+// per champion, observed builds resolve to the freshest patch that actually has
+// them, so a brand-new patch with few games doesn't hide the previous patch's
+// data. Reads precomputed aggregate tables only -- never aggregates at query time.
 
 import { and, eq } from "drizzle-orm";
 import { PATCH } from "@/data/ddragon";
@@ -37,22 +39,48 @@ class PostgresStatsProvider implements StatsProvider {
     return { patch, rank: rankRow[0]?.rank ?? "ALL" };
   }
 
-  async getBuilds(query: StatsQuery): Promise<BuildStat[]> {
+  private buildRows(champion: string, patch: string, role?: Role) {
     const db = getDb();
-    const patch = query.patch ?? (await this.latest())?.patch ?? PATCH;
-    const conds = [eq(buildStats.champion, query.champion), eq(buildStats.patch, patch)];
-    if (query.role) conds.push(eq(buildStats.role, query.role));
-    const rows = await db.select().from(buildStats).where(and(...conds));
+    const conds = [eq(buildStats.champion, champion), eq(buildStats.patch, patch)];
+    if (role) conds.push(eq(buildStats.role, role));
+    return db.select().from(buildStats).where(and(...conds));
+  }
+
+  /**
+   * Freshest patch that actually has aggregated builds for this champion(+role).
+   * Patches stay strictly separate (no bucketing), but a brand-new patch with
+   * almost no games shouldn't hide the previous patch's real data -- so observed
+   * builds fall back to the most recent patch that has them.
+   */
+  private async freshestPatchWithBuilds(champion: string, role?: Role): Promise<string | null> {
+    const db = getDb();
+    const conds = [eq(buildStats.champion, champion)];
+    if (role) conds.push(eq(buildStats.role, role));
+    const rows = await db.selectDistinct({ patch: buildStats.patch }).from(buildStats).where(and(...conds));
+    if (!rows.length) return null;
+    return rows.map((r) => r.patch).sort((a, b) => patchRank(b) - patchRank(a))[0];
+  }
+
+  async getBuilds(query: StatsQuery): Promise<BuildStat[]> {
+    const preferred = query.patch ?? (await this.latest())?.patch ?? PATCH;
+    let rows = await this.buildRows(query.champion, preferred, query.role);
+    if (!rows.length) {
+      const fresh = await this.freshestPatchWithBuilds(query.champion, query.role);
+      if (fresh && fresh !== preferred) rows = await this.buildRows(query.champion, fresh, query.role);
+    }
     return rows.map(toBuildStat);
   }
 
   async getChampionRoleAggs(champion: string, patch?: string): Promise<ChampionRoleAgg[]> {
     const db = getDb();
-    const usePatch = patch ?? (await this.latest())?.patch ?? PATCH;
-    const rows = await db
-      .select()
-      .from(championRoleAgg)
-      .where(and(eq(championRoleAgg.champion, champion), eq(championRoleAgg.patch, usePatch)));
+    const preferred = patch ?? (await this.latest())?.patch ?? PATCH;
+    const aggRows = (p: string) =>
+      db.select().from(championRoleAgg).where(and(eq(championRoleAgg.champion, champion), eq(championRoleAgg.patch, p)));
+    let rows = await aggRows(preferred);
+    if (!rows.length) {
+      const fresh = await this.freshestPatchWithBuilds(champion);
+      if (fresh && fresh !== preferred) rows = await aggRows(fresh);
+    }
     return rows.map((r) => ({
       champion: r.champion, role: r.role as Role, patch: r.patch, rank: r.rank as RankBracket,
       games: r.games, wins: r.wins, pickRate: r.pickRate, banRate: r.banRate ?? undefined,

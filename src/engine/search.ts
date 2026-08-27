@@ -184,6 +184,15 @@ export async function search(raw: string): Promise<SearchResponse> {
   if (!role && builds.length) role = mostCommonRole(builds);
   const displayRole: Role = role ?? "MIDDLE";
 
+  // Observed builds may resolve to an older patch than the current one (a fresh
+  // patch often has too few games). Say so plainly rather than showing nothing.
+  const observedPatch = builds[0]?.patch ?? null;
+  if (observedPatch && observedPatch !== meta.patch) {
+    notes.push(
+      `Observed builds are from patch ${observedPatch}, the most recent with enough ${profile.name} games. Synergy picks reflect the current patch (${meta.patch}).`,
+    );
+  }
+
   // Observed: require all requested items to be present in the build.
   let observed = builds.filter((b) =>
     parsed.requiredItemIds.every((id) => b.items.includes(id) || b.boots === id),
