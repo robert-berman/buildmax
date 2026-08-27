@@ -87,9 +87,28 @@ export interface SearchResponseMeta {
   roleInferred: boolean;
 }
 
+/** One ability for the champion "kit" panel, from curated or derived knowledge. */
+export interface AbilityInfo {
+  slot: "P" | "Q" | "W" | "E" | "R";
+  name: string;
+  damageType: "physical" | "magic" | "true" | "mixed" | "none";
+  blurb: string;
+}
+
+/** Champion-level context shown once per search, grounding the synergy "why". */
+export interface ChampionKit {
+  id: string;
+  name: string;
+  identity: string;
+  damageType: string;
+  curated: boolean; // true = hand-authored knowledge, false = derived from Data Dragon
+  abilities: AbilityInfo[];
+}
+
 export interface SearchResponse {
   parsed: ParsedQuery;
   meta: SearchResponseMeta;
+  champion: ChampionKit | null;
   results: SearchResult[];
   observedCount: number;
   recommendedCount: number;

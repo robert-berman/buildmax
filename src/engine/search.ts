@@ -7,6 +7,7 @@ import { getStatsProvider } from "@/data/stats";
 import type { BuildStat, Role } from "@/data/stats/types";
 import { parseQuery } from "./parse";
 import { explainBuild } from "./explain";
+import { getChampionKnowledge } from "./knowledge";
 import { wilsonLowerBound, winRate } from "./rank";
 import {
   getChampionProfile,
@@ -16,7 +17,7 @@ import {
   type ChampionProfile,
   type EffectTag,
 } from "./synergy";
-import type { Archetype, ParsedQuery, ResultItem, SearchResponse, SearchResult } from "./types";
+import type { Archetype, ChampionKit, ParsedQuery, ResultItem, SearchResponse, SearchResult } from "./types";
 
 const MAX_OBSERVED = 7;
 const MAX_RESULTS = 10;
@@ -158,6 +159,7 @@ export async function search(raw: string): Promise<SearchResponse> {
     return {
       parsed,
       meta: { ...meta, championName: null, roleResolved: null, roleInferred: false },
+      champion: null,
       results: [],
       observedCount: 0,
       recommendedCount: 0,
@@ -166,6 +168,20 @@ export async function search(raw: string): Promise<SearchResponse> {
   }
 
   const profile = getChampionProfile(parsed.championId);
+  const knowledge = getChampionKnowledge(parsed.championId);
+  const championKit: ChampionKit = {
+    id: knowledge.championId,
+    name: knowledge.name,
+    identity: knowledge.identity,
+    damageType: knowledge.damageType,
+    curated: knowledge.curated,
+    abilities: knowledge.abilities.map((a) => ({
+      slot: a.slot,
+      name: a.name,
+      damageType: a.damageType ?? "none",
+      blurb: a.blurb,
+    })),
+  };
 
   // Resolve role: explicit -> champion's most-played role -> from returned builds.
   let role = parsed.role;
@@ -255,6 +271,7 @@ export async function search(raw: string): Promise<SearchResponse> {
       roleResolved: role ?? null,
       roleInferred,
     },
+    champion: championKit,
     results,
     observedCount: observedResults.length,
     recommendedCount: recommendedResults.length,

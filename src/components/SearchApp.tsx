@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { SearchResponse } from "@/engine/types";
 import { BuildCard } from "./BuildCard";
+import { ChampionKitPanel } from "./ChampionKit";
 
 const EXAMPLES = [
   "Hecarim jungle Heartsteel build",
@@ -175,6 +176,9 @@ export function SearchApp({ patch }: { patch: string }) {
           </div>
         </section>
       )}
+
+      {/* Champion kit — grounds the synergy "why" */}
+      {data?.champion && <ChampionKitPanel kit={data.champion} />}
 
       {/* Notes */}
       {data?.notes.map((note, i) => (
