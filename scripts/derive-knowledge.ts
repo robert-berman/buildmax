@@ -157,9 +157,11 @@ function blurbFrom(desc: string, champName: string): string {
     s = s.slice(prefix.length);
     stripped = true;
   }
-  // First sentence only.
-  const dot = s.indexOf(". ");
-  if (dot > 0) s = s.slice(0, dot);
+  // First sentence only. End it on a period followed by whitespace, an uppercase
+  // letter (Data Dragon sometimes omits the space, e.g. "heals.After taking"), or
+  // end-of-string. The digit case is left alone so decimals like "1.5" survive.
+  const end = /\.(\s|[A-Z]|$)/.exec(s);
+  if (end && end.index > 0) s = s.slice(0, end.index);
   s = s.replace(/\.$/, "").trim();
   if (stripped) s = s.charAt(0).toLowerCase() + s.slice(1);
   if (s.length > 150) s = s.slice(0, 147).trimEnd() + "...";

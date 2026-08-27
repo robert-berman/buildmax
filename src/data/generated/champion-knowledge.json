@@ -101,7 +101,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "After killing 9 minions or monsters, Ahri heals.After taking down an enemy champion, Ahri heals for a greater amount"
+        "blurb": "After killing 9 minions or monsters, Ahri heals"
       },
       {
         "slot": "Q",
@@ -273,7 +273,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion.When Akshan Attacks, h..."
+        "blurb": "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion"
       },
       {
         "slot": "Q",
@@ -678,7 +678,7 @@
         "name": "Pyromania",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "After casting 4 spells, Annie's next offensive spell will stun the target.Annie begins the game and respawns with Pyromania available"
+        "blurb": "After casting 4 spells, Annie's next offensive spell will stun the target"
       },
       {
         "slot": "Q",
@@ -831,7 +831,7 @@
         "name": "Frost Shot",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Ashe's attacks slow their target, causing her to deal increased damage to these targets.Ashe's critical strikes deal no bonus damage but apply an e..."
+        "blurb": "Ashe's attacks slow their target, causing her to deal increased damage to these targets"
       },
       {
         "slot": "Q",
@@ -1475,7 +1475,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "propels freezing ice from his shield, slowing and dealing magic damage.Applies a stack of Concussive Blows"
+        "blurb": "propels freezing ice from his shield, slowing and dealing magic damage"
       },
       {
         "slot": "W",
@@ -2182,7 +2182,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Unleashes a bolt of lunar energy in an arc dealing magic damage.Afflicts enemies struck with Moonlight, revealing them if they are not stealthed fo..."
+        "blurb": "Unleashes a bolt of lunar energy in an arc dealing magic damage"
       },
       {
         "slot": "W",
@@ -2200,7 +2200,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage.Lunar Rush has no cooldown when used to dash to an..."
+        "blurb": "Becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage"
       },
       {
         "slot": "R",
@@ -2209,7 +2209,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "reveals and draws in all nearby enemies and slows them.If Diana pulls in one or more enemy champions, the moonlight crashes down onto her after a s..."
+        "blurb": "reveals and draws in all nearby enemies and slows them"
       }
     ],
     "wants": [
@@ -2506,7 +2506,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Human Form: When Elise's abilities hit an enemy, she gains a dormant Spiderling.Spider Form: Basic attacks deal bonus magic damage and restore heal..."
+        "blurb": "Human Form: When Elise's abilities hit an enemy, she gains a dormant Spiderling"
       },
       {
         "slot": "Q",
@@ -2516,7 +2516,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Human Form: Deals damage based upon how high the target's Health is.Spider Form: Lunges at an enemy and deals damage based upon how low their Healt..."
+        "blurb": "Human Form: Deals damage based upon how high the target's Health is"
       },
       {
         "slot": "W",
@@ -2525,7 +2525,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Human Form: Releases a venom-gorged Spiderling that explodes when it nears a target.Spider Form: Elise and her Spiderlings gain Attack Speed"
+        "blurb": "Human Form: Releases a venom-gorged Spiderling that explodes when it nears a target"
       },
       {
         "slot": "E",
@@ -2534,7 +2534,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed.Spider Form: Elise and her Spiderlings ascend into the air an..."
+        "blurb": "Human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed"
       },
       {
         "slot": "R",
@@ -3281,7 +3281,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Gnar's attacks and spells hype him up, dealing bonus damage and granting him Move Speed.Mega Gnar is too enraged to be hyper and instead can rear u..."
+        "blurb": "Gnar's attacks and spells hype him up, dealing bonus damage and granting him Move Speed"
       },
       {
         "slot": "E",
@@ -3290,7 +3290,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "leaps to a location and bounces off the head of any unit he lands on, traveling further.Mega Gnar is too large to bounce and instead lands with ear..."
+        "blurb": "leaps to a location and bounces off the head of any unit he lands on, traveling further"
       },
       {
         "slot": "R",
@@ -3792,7 +3792,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "primes enemy champions he damages with his abilities for his signature finishing touch.Hitting an enemy with a second damaging spell completes his..."
+        "blurb": "primes enemy champions he damages with his abilities for his signature finishing touch"
       },
       {
         "slot": "Q",
@@ -3801,7 +3801,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "envisions a series of disasters, allowing him to paint a devastating blow.This ability replaces Hwei's abilities with damaging abilities: Devastati..."
+        "blurb": "envisions a series of disasters, allowing him to paint a devastating blow"
       },
       {
         "slot": "W",
@@ -3811,7 +3811,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "envisions a series of serenities, allowing him to paint invigorating settings.This ability replaces Hwei's abilities with utility abilities: Fleeti..."
+        "blurb": "envisions a series of serenities, allowing him to paint invigorating settings"
       },
       {
         "slot": "E",
@@ -3820,7 +3820,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "envisions a series of torments, allowing him to paint controlling visages.This ability replaces Hwei's abilities with crowd control abilities: Grim..."
+        "blurb": "envisions a series of torments, allowing him to paint controlling visages"
       },
       {
         "slot": "R",
@@ -4115,7 +4115,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Janna's allies gain Move Speed moving towards her.Janna deals a portion of bonus Move Speed as bonus magic damage on hit and with Zephyr"
+        "blurb": "Janna's allies gain Move Speed moving towards her"
       },
       {
         "slot": "Q",
@@ -4363,7 +4363,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Hammer Stance: Leaps to an enemy dealing physical damage and slowing enemies.Cannon Stance: Fires an orb of electricity that detonates upon hitting..."
+        "blurb": "Hammer Stance: Leaps to an enemy dealing physical damage and slowing enemies"
       },
       {
         "slot": "W",
@@ -4382,7 +4382,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Hammer Stance: Deals magic damage to an enemy and knocks them back a short distance.Cannon Stance: Deploys an Acceleration Gate increasing the Move..."
+        "blurb": "Hammer Stance: Deals magic damage to an enemy and knocks them back a short distance"
       },
       {
         "slot": "R",
@@ -4631,7 +4631,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "shoots a swarm of missiles that seek out nearby targets.Living Weapon: Icathian Rain is upgraded to shoot more missiles"
+        "blurb": "shoots a swarm of missiles that seek out nearby targets"
       },
       {
         "slot": "W",
@@ -4640,7 +4640,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "shoots a long range missile, marking enemies with her passive.Living Weapon: Void Seeker is upgraded to apply more passive marks and reduce cooldow..."
+        "blurb": "shoots a long range missile, marking enemies with her passive"
       },
       {
         "slot": "E",
@@ -4649,7 +4649,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "briefly increases her Move Speed, then increases her Attack Speed.Living Weapon: Supercharge is upgraded to briefly grant Invisibility"
+        "blurb": "briefly increases her Move Speed, then increases her Attack Speed"
       },
       {
         "slot": "R",
@@ -4790,7 +4790,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "sends forth a ball of spirit energy that explodes and deals damage upon hitting an enemy unit.Mantra Bonus: In addition to the explosion, Mantra in..."
+        "blurb": "sends forth a ball of spirit energy that explodes and deals damage upon hitting an enemy unit"
       },
       {
         "slot": "W",
@@ -4809,7 +4809,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "summons a protective shield that absorbs incoming damage and increases the Move Speed of the protected ally.Mantra Bonus: Energy radiates out from..."
+        "blurb": "summons a protective shield that absorbs incoming damage and increases the Move Speed of the protected ally"
       },
       {
         "slot": "R",
@@ -5043,7 +5043,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced.If Katarina picks up a..."
+        "blurb": "Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced"
       },
       {
         "slot": "Q",
@@ -5155,7 +5155,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks.Active: Kayle's next attack smites her target with celest..."
+        "blurb": "Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks"
       },
       {
         "slot": "R",
@@ -5752,7 +5752,7 @@
         "name": "Dauntless Instinct",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "K'Sante's Abilities mark targets to take more damage on his next Attack.When All Out, K'Sante deals more damage with all Attacks and Abilities"
+        "blurb": "K'Sante's Abilities mark targets to take more damage on his next Attack"
       },
       {
         "slot": "Q",
@@ -5762,7 +5762,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "strikes, damaging and slowing enemies in a short line.On hit, grants a stack of Ntofo Strikes"
+        "blurb": "strikes, damaging and slowing enemies in a short line"
       },
       {
         "slot": "W",
@@ -5772,7 +5772,7 @@
           "bonusAD",
           "ap"
         ],
-        "blurb": "charges up, taking reduced damage, then dashes, knocking back and stunning enemies.When All Out, deals increased damage and no longer knocks back o..."
+        "blurb": "charges up, taking reduced damage, then dashes, knocking back and stunning enemies"
       },
       {
         "slot": "E",
@@ -6901,7 +6901,7 @@
         "name": "Searing Brilliance",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Whenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack.When Mel deals damage through an ability or..."
+        "blurb": "Whenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack"
       },
       {
         "slot": "Q",
@@ -6938,7 +6938,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm.Ranks of Gol..."
+        "blurb": "strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm"
       }
     ],
     "wants": [
@@ -7181,7 +7181,7 @@
           "bonusAD",
           "moveSpeed"
         ],
-        "blurb": "Wukong's extends his staff and spins it around repeatedly, gaining Move Speed.Enemies struck take damage and are knocked up"
+        "blurb": "Wukong's extends his staff and spins it around repeatedly, gaining Move Speed"
       }
     ],
     "wants": [
@@ -7403,7 +7403,7 @@
           "sustain",
           "abilityHaste"
         ],
-        "blurb": "hurls up to two daggers, each inflicting bleed, or each inflicting bonus damage if the target is already bleeding.Packmates leap to attack the firs..."
+        "blurb": "hurls up to two daggers, each inflicting bleed, or each inflicting bonus damage if the target is already bleeding"
       },
       {
         "slot": "W",
@@ -7813,7 +7813,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Moving through brush increases Nidalee's Move Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range.Hitting..."
+        "blurb": "Moving through brush increases Nidalee's Move Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range"
       },
       {
         "slot": "Q",
@@ -8341,7 +8341,7 @@
         "name": "Living Forge",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "gains an additional bonus Armor and Magic Resist from all sources.Ornn can spend gold to forge non-consumable items anywhere.Additionally, he can c..."
+        "blurb": "gains an additional bonus Armor and Magic Resist from all sources"
       },
       {
         "slot": "Q",
@@ -9005,7 +9005,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Rek'Sai's next 3 basic attacks deal bonus Physical Damage to nearby enemies.While Burrowed, Rek'Sai launches a burst of void-charged earth that dam..."
+        "blurb": "Rek'Sai's next 3 basic attacks deal bonus Physical Damage to nearby enemies"
       },
       {
         "slot": "W",
@@ -9025,7 +9025,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "bites her target, dealing physical damage, or bonus true damage if she has max Fury.While Burrowed, Rek'Sai creates a re-usable, long lasting tunnel"
+        "blurb": "bites her target, dealing physical damage, or bonus true damage if she has max Fury"
       },
       {
         "slot": "R",
@@ -9119,7 +9119,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Passive: Rell gains out of combat Move Speed.Active: Rell and an ally gain ramping Move Speed, doubled toward enemies and each other"
+        "blurb": "Passive: Rell gains out of combat Move Speed"
       },
       {
         "slot": "R",
@@ -9334,7 +9334,7 @@
         "name": "Unseen Predator",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "While in Brush, Rengar leaps at his target with his basic attack.Rengar generates Ferocity whenever he casts an ability"
+        "blurb": "While in Brush, Rengar leaps at his target with his basic attack"
       },
       {
         "slot": "Q",
@@ -9344,7 +9344,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Rengar's next Attack brutally stabs his target for bonus damage.Ferocity effect: deals increased damage and grants Attack Speed"
+        "blurb": "Rengar's next Attack brutally stabs his target for bonus damage"
       },
       {
         "slot": "W",
@@ -9355,7 +9355,7 @@
           "sustain",
           "abilityHaste"
         ],
-        "blurb": "lets out a battle roar, damaging enemies and healing for some of the recent damage he has taken.Ferocity effect: additionally breaks crowd control..."
+        "blurb": "lets out a battle roar, damaging enemies and healing for some of the recent damage he has taken"
       },
       {
         "slot": "E",
@@ -9365,7 +9365,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "throws a bola, slowing the first target hit for a short duration.Ferocity effect: roots the target"
+        "blurb": "throws a bola, slowing the first target hit for a short duration"
       },
       {
         "slot": "R",
@@ -9626,7 +9626,7 @@
         "name": "Realm Warp",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Passively, Overload deals even more damage against targets with Flux.On cast, Ryze creates a portal to a nearby location"
+        "blurb": "Passively, Overload deals even more damage against targets with Flux"
       }
     ],
     "wants": [
@@ -10093,7 +10093,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "becomes Invisible and teleports to target location.His first attack while Invisible is empowered, dealing bonus damage and critically striking if h..."
+        "blurb": "becomes Invisible and teleports to target location"
       },
       {
         "slot": "W",
@@ -11090,7 +11090,7 @@
         "name": "Transcendent",
         "damageType": "true",
         "scalesWith": [],
-        "blurb": "collects Splinters of Wrath from gaining levels and damaging enemies which upgrade her abilities.Dark Sphere: Syndra can hold an additional chargeF..."
+        "blurb": "collects Splinters of Wrath from gaining levels and damaging enemies which upgrade her abilities"
       },
       {
         "slot": "Q",
@@ -11184,7 +11184,7 @@
           "sustain",
           "abilityHaste"
         ],
-        "blurb": "lashes out with his tongue, damaging and slowing the first unit hit and healing himself if he strikes an enemy champion.Applies a stack of  An Acqu..."
+        "blurb": "lashes out with his tongue, damaging and slowing the first unit hit and healing himself if he strikes an enemy champion"
       },
       {
         "slot": "W",
@@ -11202,7 +11202,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Passive: Tahm Kench stores a percent of the damage he takes and heals based on it while out of combat.Active: Convert all stored damage into a temp..."
+        "blurb": "Passive: Tahm Kench stores a percent of the damage he takes and heals based on it while out of combat"
       },
       {
         "slot": "R",
@@ -11446,7 +11446,7 @@
         "name": "Bastion",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Passively increase the Armor of Taric and any allied champion with Bastion.Actively shields an ally and grants them Bastion for as long as they rem..."
+        "blurb": "Passively increase the Armor of Taric and any allied champion with Bastion"
       },
       {
         "slot": "E",
@@ -12843,7 +12843,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "blasts an enemy unit with magic damage, which grants him a shield and empowers his next basic attack.Augment: Siphon Power's shield is increased by..."
+        "blurb": "blasts an enemy unit with magic damage, which grants him a shield and empowers his next basic attack"
       },
       {
         "slot": "W",
@@ -12859,7 +12859,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "uses his biomechanical arm to fire a Hextech Ray that cuts across the field in a line, dealing damage to all enemies in its path.Augment: An explos..."
+        "blurb": "uses his biomechanical arm to fire a Hextech Ray that cuts across the field in a line, dealing damage to all enemies in its path"
       },
       {
         "slot": "R",
@@ -13448,7 +13448,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Thrusts forward, damaging all enemies in a line.On hit, grants a stack of Gathering Storm for a few seconds"
+        "blurb": "Thrusts forward, damaging all enemies in a line"
       },
       {
         "slot": "W",
@@ -13530,7 +13530,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Thrusts forward, damaging all enemies in a line.On hit, grants a stack of Gathering Storm for a few seconds"
+        "blurb": "Thrusts forward, damaging all enemies in a line"
       },
       {
         "slot": "W",
@@ -13786,7 +13786,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Periodically, when Yuumi strikes a champion with an attack or ability, she restores health to herself and the next ally she Attaches to.While Attac..."
+        "blurb": "Periodically, when Yuumi strikes a champion with an attack or ability, she restores health to herself and the next ally she Attaches to"
       },
       {
         "slot": "Q",
@@ -14048,7 +14048,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "and his shadows throw their shurikens.Each shuriken deals damage to every enemy hit"
+        "blurb": "and his shadows throw their shurikens"
       },
       {
         "slot": "W",
