@@ -1,4 +1,4 @@
-Copyright (c) 2026 BuildMax. All rights reserved.
+Copyright (c) 2026 Robert Berman. All rights reserved.
 
 This software and its source code are proprietary and confidential. No license,
 right, or permission is granted to any person or entity to use, copy, modify,
@@ -9,10 +9,17 @@ holder.
 Unauthorized copying, distribution, or use of this software, via any medium, is
 strictly prohibited.
 
-DISCLAIMER: This is an unofficial project and is not endorsed by, sponsored by,
-or affiliated with Riot Games. League of Legends and Riot Games are trademarks
-or registered trademarks of Riot Games, Inc. Game data and imagery accessed via
-Riot's Data Dragon service and the Riot Games API are the property of Riot
-Games, Inc. and are used subject to Riot Games' Developer Policies and Legal
-Jibber Jabber. Any commercial use of this project must independently comply with
-those policies (including product registration and approval where required).
+--------------------------------------------------------------------------------
+RIOT GAMES NOTICE (required boilerplate, per Riot's General Policies)
+
+BuildMax isn't endorsed by Riot Games and doesn't reflect the views or opinions
+of Riot Games or anyone officially involved in producing or managing Riot Games
+properties. Riot Games, and all associated properties are trademarks or
+registered trademarks of Riot Games, Inc.
+
+Game data and imagery are accessed via Riot's Data Dragon service and the Riot
+Games API and remain the property of Riot Games, Inc., used subject to Riot's
+Terms of Use, Legal Jibber Jabber, and Developer Policies. Any commercial use
+must independently comply with those policies, including registering the product
+on the Riot Developer Portal and reaching Approved or Acknowledged status before
+monetizing.

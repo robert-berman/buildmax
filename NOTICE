@@ -1,0 +1,31 @@
+BuildMax
+Copyright (c) 2026 Robert Berman. All rights reserved.
+
+This product uses static game data from Riot Games' Data Dragon and, when
+configured, the Riot Games API.
+
+REQUIRED RIOT GAMES LEGAL BOILERPLATE
+(displayed in-product in the site footer, and reproduced here)
+
+  BuildMax isn't endorsed by Riot Games and doesn't reflect the views or
+  opinions of Riot Games or anyone officially involved in producing or managing
+  Riot Games properties. Riot Games, and all associated properties are
+  trademarks or registered trademarks of Riot Games, Inc.
+
+COMPLIANCE CHECKLIST (per Riot's General Policies, last updated 2025-05-29)
+
+  - Register the product on the Riot Developer Portal and reach Approved or
+    Acknowledged status before monetizing; submit new features for audit.
+  - Keep a free tier for players. Advertising is allowed only on our own
+    property, never inside Riot properties (in-game, loading screens, client).
+  - Paid content must be transformative (new analysis / insights), not a resale
+    of raw Riot data; no acting as a data broker between the API and third
+    parties.
+  - No betting or gambling. No cryptocurrency, blockchain, or NFTs.
+  - Do not build MMR/ELO calculators or other alternatives to Riot's ranked
+    system; do not de-anonymize players or expose historic Riot IDs.
+  - Never commit the API key (keep it in .env); always use HTTPS; use one
+    product per production key.
+
+This file is informational and is not legal advice. Review Riot's Terms of Use,
+Legal Jibber Jabber, and General Policies directly before commercializing.

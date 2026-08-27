@@ -223,10 +223,16 @@ export function SearchApp({ patch }: { patch: string }) {
         </div>
       )}
 
-      <footer className="mt-10 border-t border-line pt-4 text-center text-xs text-gold-bright/30">
-        Static champion/item data from Riot Data Dragon (patch {patch}). Build statistics are representative
-        sample data pending the live Riot ingestion pipeline. BuildMax is unofficial and not endorsed by Riot
-        Games.
+      <footer className="mt-10 space-y-2 border-t border-line pt-4 text-center text-xs text-gold-bright/30">
+        <p>
+          Static champion and item data from Riot Data Dragon (patch {patch}). Build statistics are currently
+          representative sample data pending the live Riot ingestion pipeline.
+        </p>
+        <p>
+          BuildMax isn&apos;t endorsed by Riot Games and doesn&apos;t reflect the views or opinions of Riot Games
+          or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all
+          associated properties are trademarks or registered trademarks of Riot Games, Inc.
+        </p>
       </footer>
     </main>
   );
