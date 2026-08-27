@@ -3,9 +3,10 @@
 // exactly this purpose. Run with: npm run sync-ddragon
 //
 // Output files (trimmed to the fields BuildMax needs):
-//   src/data/generated/version.json    -> { version, patch, locale, syncedAt }
-//   src/data/generated/champions.json  -> { [championId]: ChampionStatic }
-//   src/data/generated/items.json      -> { [itemId]: ItemStatic }
+//   src/data/generated/version.json          -> { version, patch, locale, syncedAt }
+//   src/data/generated/champions.json        -> { [championId]: ChampionStatic }
+//   src/data/generated/items.json            -> { [itemId]: ItemStatic }
+//   src/data/generated/champion-details.json -> { [championId]: full spells/stats } (fuels derive-knowledge)
 
 import { mkdir, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -92,6 +93,48 @@ async function main() {
   }
   console.log(`  ${Object.keys(items).length} purchasable SR items`);
 
+  // Full champion data (spells, passive, stat growth) for the knowledge
+  // derivation. This is the source for real ability names + per-ability damage
+  // types; scripts/derive-knowledge.ts turns it into champion-knowledge.json.
+  console.log("Fetching full champion data (spells/stats)...");
+  const champFull = await getJson(`${base}/championFull.json`);
+  const SLOTS = ["Q", "W", "E", "R"];
+  const details = {};
+  for (const [id, c] of Object.entries(champFull.data)) {
+    const st = c.stats || {};
+    const spells = (c.spells || []).map((sp, i) => ({
+      slot: SLOTS[i] || "?",
+      id: sp.id,
+      name: sp.name,
+      description: sp.description || "",
+      tooltip: sp.tooltip || "",
+      cooldownBurn: sp.cooldownBurn || "",
+    }));
+    details[id] = {
+      tags: c.tags || [],
+      partype: c.partype || "",
+      stats: {
+        hp: st.hp ?? 0,
+        hpperlevel: st.hpperlevel ?? 0,
+        attackdamage: st.attackdamage ?? 0,
+        attackdamageperlevel: st.attackdamageperlevel ?? 0,
+        attackspeed: st.attackspeed ?? 0,
+        attackspeedperlevel: st.attackspeedperlevel ?? 0,
+        armor: st.armor ?? 0,
+        spellblock: st.spellblock ?? 0,
+        movespeed: st.movespeed ?? 0,
+        attackrange: st.attackrange ?? 0,
+        crit: st.crit ?? 0,
+      },
+      passive: {
+        name: c.passive?.name || "",
+        description: c.passive?.description || "",
+      },
+      spells,
+    };
+  }
+  console.log(`  ${Object.keys(details).length} champions with full data`);
+
   await mkdir(OUT_DIR, { recursive: true });
   await writeFile(
     join(OUT_DIR, "version.json"),
@@ -99,6 +142,7 @@ async function main() {
   );
   await writeFile(join(OUT_DIR, "champions.json"), JSON.stringify(champions, null, 0));
   await writeFile(join(OUT_DIR, "items.json"), JSON.stringify(items, null, 0));
+  await writeFile(join(OUT_DIR, "champion-details.json"), JSON.stringify(details, null, 0));
 
   console.log(`\nWrote generated data to ${OUT_DIR}`);
   console.log("Done.");

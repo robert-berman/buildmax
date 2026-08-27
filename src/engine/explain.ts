@@ -49,6 +49,14 @@ function effectChampionReason(
       return k.abilities.length > 0 || wantByTag.has("abilityHaste") ? `${item.name}'s Spellblade rewards ${name}'s frequent ability casts.` : null;
     case "healAmp":
       return wantByTag.has("sustain") ? `${item.name} ${m}, amplifying ${name}'s own healing.` : null;
+    case "abilityAmp": {
+      if (!(wantByTag.has("abilityHaste") || wantByTag.has("bonusAD") || wantByTag.has("ap"))) return null;
+      const spam = k.abilities.find((a) => a.scalesWith.includes("abilityHaste"));
+      const tail = spam
+        ? `${name} leans on ${spam.name} (${spam.slot})'s low cooldown to stack it fast`
+        : `${name} casts often to keep it stacked`;
+      return `${item.name} ${m} — and ${tail}.`;
+    }
     default:
       return null;
   }
@@ -97,6 +105,8 @@ function pairReason(a: ItemProfile, b: ItemProfile): string | null {
     return `${a.name} boosts the healing and shielding from ${b.name}.`;
   if (hasEffect(a, "spellblade") && provides(b, "abilityHaste"))
     return `ability haste from ${b.name} means more ${a.name} Spellblade procs.`;
+  if (hasEffect(a, "abilityAmp") && provides(b, "abilityHaste"))
+    return `ability haste from ${b.name} lets ${a.name}'s ability-damage ramp build up faster.`;
   return null;
 }
 

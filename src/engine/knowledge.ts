@@ -13,47 +13,21 @@
 // Dragon; we only hand-author the passives/scalings Data Dragon doesn't expose.
 
 import { getChampion, getItem, type ItemStatic } from "@/data/ddragon";
+import championKnowledgeRaw from "@/data/generated/champion-knowledge.json";
+import type { ChampionKnowledge, ItemMechanic, ItemProfile, ScaleTag } from "./knowledge-types";
 
-export type ScaleTag =
-  | "bonusAD" | "ap" | "health" | "attackSpeed" | "onHit" | "crit" | "armor"
-  | "magicResist" | "abilityHaste" | "armorPen" | "magicPen" | "lifesteal"
-  | "moveSpeed" | "tenacity" | "sustain";
-
-export type ItemEffect =
-  | "healthScaling" | "bonusADConvert" | "critAmp" | "critToOnHit" | "onHitTrue"
-  | "percentHP" | "spellblade" | "healAmp" | "antiHeal" | "antiCrit"
-  | "armorShred" | "shield" | "shredPen";
-
-export interface Ability {
-  slot: "P" | "Q" | "W" | "E" | "R";
-  name: string;
-  damageType?: "physical" | "magic" | "true" | "mixed" | "none";
-  scalesWith: ScaleTag[];
-  blurb: string;
-}
-
-export interface Want {
-  tag: ScaleTag;
-  weight: number; // 0..1 relative importance
-  why: string; // verb-first clause following "<Item>'s <stat> ..."
-}
-
-export interface ChampionKnowledge {
-  championId: string;
-  name: string;
-  identity: "carry" | "bruiser" | "tank" | "burst" | "enchanter";
-  damageType: "physical" | "magic" | "mixed";
-  abilities: Ability[];
-  wants: Want[];
-  notes: string;
-  curated: boolean;
-}
-
-export interface ItemMechanic {
-  mechanic: string; // verb phrase, item as implicit subject
-  effects: ItemEffect[];
-  addProvides?: ScaleTag[];
-}
+// Types live in ./knowledge-types (no data imports) so the offline derivation
+// script can share them without an import cycle. Re-exported here so existing
+// consumers keep importing them from "./knowledge".
+export type {
+  Ability,
+  ChampionKnowledge,
+  ItemEffect,
+  ItemMechanic,
+  ItemProfile,
+  ScaleTag,
+  Want,
+} from "./knowledge-types";
 
 // ---- Curated champion knowledge ------------------------------------------
 
@@ -181,12 +155,22 @@ const CLASS_FALLBACKS: Record<string, Omit<ChampionKnowledge, "championId" | "na
   },
 };
 
+// Derived knowledge for the whole roster (scripts/derive-knowledge.ts).
+const DERIVED = championKnowledgeRaw as unknown as Record<string, ChampionKnowledge>;
+
 export function getChampionKnowledge(championId: string): ChampionKnowledge {
   const champ = getChampion(championId);
   const name = champ?.name ?? championId;
+
+  // 1) Hand-curated overrides win (precise signature passives for top champs).
   const curated = CHAMPIONS[championId];
   if (curated) return { championId, name, curated: true, ...curated };
 
+  // 2) Derived-from-Data-Dragon base covers the rest of the roster.
+  const derived = DERIVED[championId];
+  if (derived) return { ...derived, championId, name, curated: false };
+
+  // 3) Class-based safety net if a champion is somehow missing from both.
   const tags = champ?.tags ?? [];
   const order = ["Marksman", "Mage", "Assassin", "Tank", "Support", "Fighter"];
   const primary = order.find((t) => tags.includes(t)) ?? "Fighter";
@@ -197,6 +181,7 @@ export function getChampionKnowledge(championId: string): ChampionKnowledge {
 // ---- Curated item mechanics (verb phrases; item is the implicit subject) ---
 
 export const ITEM_MECHANICS: Record<number, ItemMechanic> = {
+  3161: { mechanic: "ramps up your ability damage the more you cast, so rapid-fire spells hit harder and harder", effects: ["abilityAmp"] },
   3084: { mechanic: "stacks permanent health, and its charged attack deals bonus damage based on your maximum health", effects: ["healthScaling"] },
   3053: { mechanic: "grants bonus AD from your base AD and a lifeline shield that scales with your maximum health", effects: ["shield", "healthScaling", "bonusADConvert"] },
   3078: { mechanic: "turns each ability cast into a bonus-damage attack (Spellblade), and adds attack speed, move speed and ability haste", effects: ["spellblade"] },
@@ -238,14 +223,6 @@ const HUMAN_TAG: Record<ScaleTag, string> = {
 
 export function humanizeTag(tag: ScaleTag): string {
   return HUMAN_TAG[tag] ?? tag;
-}
-
-export interface ItemProfile {
-  id: number;
-  name: string;
-  provides: ScaleTag[];
-  effects: ItemEffect[];
-  mechanic?: string;
 }
 
 export function itemProfile(item: ItemStatic): ItemProfile {
