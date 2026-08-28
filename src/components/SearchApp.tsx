@@ -151,7 +151,7 @@ export function SearchApp({ patch }: { patch: string }) {
                 }
                 title={data.meta.sampleNote}
               >
-                {data.meta.live ? "live data" : "sample data"} · {data.meta.provider}
+                {data.meta.live ? "Live ranked data" : "Sample data"}
               </span>
             )}
           </div>
@@ -229,8 +229,8 @@ export function SearchApp({ patch }: { patch: string }) {
 
       <footer className="mt-10 space-y-2 border-t border-line pt-4 text-center text-xs text-gold-bright/30">
         <p>
-          Static champion and item data from Riot Data Dragon (patch {patch}). Build statistics are currently
-          representative sample data pending the live Riot ingestion pipeline.
+          Champion and item data from Riot Data Dragon (patch {patch}).
+          {data ? ` ${data.meta.sampleNote}` : ""}
         </p>
         <p>
           BuildMax isn&apos;t endorsed by Riot Games and doesn&apos;t reflect the views or opinions of Riot Games
