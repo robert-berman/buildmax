@@ -13,7 +13,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Periodically, Aatrox's next basic attack deals bonus magic damage and heals him, based on the target's max health"
+        "blurb": "periodically, next basic attack deals bonus magic damage and heals him, based on the target's max health"
       },
       {
         "slot": "Q",
@@ -40,7 +40,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Passively, Aatrox heals when damaging enemy champions"
+        "blurb": "passively, heals when damaging enemy champions"
       },
       {
         "slot": "R",
@@ -101,7 +101,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "After killing 9 minions or monsters, Ahri heals"
+        "blurb": "after killing 9 minions or monsters, heals"
       },
       {
         "slot": "Q",
@@ -190,7 +190,7 @@
         "name": "Assassin's Mark",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Dealing spell damage to a champion creates a ring of energy around them"
+        "blurb": "dealing spell damage to a champion creates a ring of energy around them"
       },
       {
         "slot": "Q",
@@ -218,7 +218,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Flip backward and fire a shuriken forward, dealing magic damage"
+        "blurb": "flip backward and fire a shuriken forward, dealing magic damage"
       },
       {
         "slot": "R",
@@ -273,7 +273,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion"
+        "blurb": "every three hits from Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion"
       },
       {
         "slot": "Q",
@@ -440,7 +440,7 @@
         "name": "Drakehound's Step",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Entering an attack or movement command while casting an ability will cause Ambessa to dash a short distance once the ability is cast, granting her..."
+        "blurb": "entering an attack or movement command while casting an ability will cause to dash a short distance once the ability is cast, granting her next att…"
       },
       {
         "slot": "Q",
@@ -524,7 +524,7 @@
           "bonusAD",
           "ap"
         ],
-        "blurb": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage"
+        "blurb": "basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage"
       },
       {
         "slot": "Q",
@@ -544,7 +544,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed"
+        "blurb": "overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed"
       },
       {
         "slot": "E",
@@ -555,7 +555,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Permanently reduces the physical damage Amumu would take"
+        "blurb": "permanently reduces the physical damage would take"
       },
       {
         "slot": "R",
@@ -564,7 +564,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them"
+        "blurb": "entangles surrounding enemy units in bandages, applying his Curse , damaging and stunning them"
       }
     ],
     "wants": [
@@ -603,7 +603,7 @@
         "name": "Rebirth",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Upon taking fatal damage, Anivia reverts to an egg and is reborn with full health"
+        "blurb": "upon taking fatal damage, reverts to an egg and is reborn with full health"
       },
       {
         "slot": "Q",
@@ -629,7 +629,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "With a flap of her wings, Anivia blasts a freezing gust of wind at her target, dealing damage"
+        "blurb": "with a flap of her wings, blasts a freezing gust of wind at her target, dealing damage"
       },
       {
         "slot": "R",
@@ -678,7 +678,7 @@
         "name": "Pyromania",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "After casting 4 spells, Annie's next offensive spell will stun the target"
+        "blurb": "after casting 4 spells, next offensive spell will stun the target"
       },
       {
         "slot": "Q",
@@ -708,7 +708,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Grants Annie or an ally a shield, a burst of Move Speed, and damages enemies who strike her with attacks or spells"
+        "blurb": "grants or an ally a shield, a burst of Move Speed, and damages enemies who strike her with attacks or spells"
       },
       {
         "slot": "R",
@@ -769,7 +769,7 @@
         "name": "Weapon Abilites",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "has 5 different activated abilities, based on his main-hand weapon:Calibrum (Rifle): Long range shot that marks its target for a long-range follow-..."
+        "blurb": "has 5 different activated abilities, based on his main-hand weapon: Calibrum (Rifle): Long range shot that marks its target for a long-range follow…"
       },
       {
         "slot": "W",
@@ -792,7 +792,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Fire a concentrated blast of moonlight that explodes on enemy champions"
+        "blurb": "fire a concentrated blast of moonlight that explodes on enemy champions"
       }
     ],
     "wants": [
@@ -831,7 +831,7 @@
         "name": "Frost Shot",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Ashe's attacks slow their target, causing her to deal increased damage to these targets"
+        "blurb": "attacks slow their target, causing her to deal increased damage to these targets"
       },
       {
         "slot": "Q",
@@ -910,7 +910,7 @@
         "name": "Cosmic Creator",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Aurelion Sol's damaging Abilities break down enemies into stacks of Stardust, which permanently improves each of his abilities"
+        "blurb": "damaging Abilities break down enemies into stacks of Stardust , which permanently improves each of his abilities"
       },
       {
         "slot": "Q",
@@ -945,7 +945,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Falling Star: Aurelion Sol crashes a star into the earth"
+        "blurb": "falling Star: crashes a star into the earth"
       }
     ],
     "wants": [
@@ -986,7 +986,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Aurora's spells and attacks exorcise spirits from the enemies she damages"
+        "blurb": "spells and attacks exorcise spirits from the enemies she damages"
       },
       {
         "slot": "Q",
@@ -1014,7 +1014,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "converges the realms, sending out a blast of spirit magic that damages and slows enemies before Aurora hops backward to safety"
+        "blurb": "converges the realms, sending out a blast of spirit magic that damages and slows enemies before hops backward to safety"
       },
       {
         "slot": "R",
@@ -1151,7 +1151,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Meeps: Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage"
+        "blurb": "meeps: attracts lesser spirits that assist with his basic attacks to deal extra magic damage"
       },
       {
         "slot": "Q",
@@ -1170,7 +1170,7 @@
           "sustain",
           "moveSpeed"
         ],
-        "blurb": "Reveals a Health shrine which powers up over a short time, disappearing after healing and speeding up the first ally that touches it"
+        "blurb": "reveals a Health shrine which powers up over a short time, disappearing after healing and speeding up the first ally that touches it"
       },
       {
         "slot": "E",
@@ -1343,7 +1343,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Enemies attacked by Blitzcrank are marked and take lightning damage after 1 second"
+        "blurb": "enemies attacked by are marked and take lightning damage after 1 second"
       }
     ],
     "wants": [
@@ -1387,7 +1387,7 @@
         "name": "Blaze",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Brand's spells light his targets ablaze, dealing damage over 4 seconds, stacking up to 3 times"
+        "blurb": "spells light his targets ablaze, dealing damage over 4 seconds, stacking up to 3 times"
       },
       {
         "slot": "Q",
@@ -1406,7 +1406,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "After a short delay, Brand creates a Pillar of Flame at a target area, dealing magic damage to enemy units within the area"
+        "blurb": "after a short delay, creates a Pillar of Flame at a target area, dealing magic damage to enemy units within the area"
       },
       {
         "slot": "E",
@@ -1424,7 +1424,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "unleashes a devastating torrent of fire that bounces up to 5 times off of Brand and nearby enemies, dealing magic damage to enemies each time bounce"
+        "blurb": "unleashes a devastating torrent of fire that bounces up to 5 times off of and nearby enemies, dealing magic damage to enemies each time bounce"
       }
     ],
     "wants": [
@@ -1465,7 +1465,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Braum's basic attacks apply Concussive Blows"
+        "blurb": "basic attacks apply Concussive Blows"
       },
       {
         "slot": "Q",
@@ -1546,7 +1546,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Briar's attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals"
+        "blurb": "attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals"
       },
       {
         "slot": "Q",
@@ -1641,7 +1641,7 @@
         "name": "Headshot",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Every few basic attacks, or against a target she has trapped or netted, Caitlyn will fire a headshot dealing bonus damage that scales with her crit..."
+        "blurb": "every few basic attacks, or against a target she has trapped or netted, will fire a headshot dealing bonus damage that scales with her critical str…"
       },
       {
         "slot": "Q",
@@ -1660,7 +1660,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "sets a trap that, when sprung, reveals and immobilizes the enemy champion for 1.5 seconds, granting Caitlyn an empowered Headshot"
+        "blurb": "sets a trap that, when sprung, reveals and immobilizes the enemy champion for 1.5 seconds, granting an empowered Headshot"
       },
       {
         "slot": "E",
@@ -1722,7 +1722,7 @@
         "name": "Adaptive Defenses",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Basic attacks on champions grant a shield equal to a percentage of Camille's maximum health against their damage type (Physical or Magic) for a bri..."
+        "blurb": "basic attacks on champions grant a shield equal to a percentage of maximum health against their damage type (Physical or Magic) for a brief duration"
       },
       {
         "slot": "Q",
@@ -1734,7 +1734,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Camille's next attack deals bonus damage and grants bonus Move Speed"
+        "blurb": "next attack deals bonus damage and grants bonus Move Speed"
       },
       {
         "slot": "W",
@@ -1813,7 +1813,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "All Move Speed bonuses are more effective on Cassiopeia"
+        "blurb": "all Move Speed bonuses are more effective on"
       },
       {
         "slot": "Q",
@@ -1853,7 +1853,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back t..."
+        "blurb": "releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back t…"
       }
     ],
     "wants": [
@@ -1902,7 +1902,7 @@
         "name": "Carnivore",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Whenever Cho'Gath kills a unit, he recovers Health and Mana"
+        "blurb": "whenever kills a unit, he recovers Health and Mana"
       },
       {
         "slot": "Q",
@@ -1912,7 +1912,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Ruptures the ground at target location, popping enemy units into the air, dealing damage and slowing them"
+        "blurb": "ruptures the ground at target location, popping enemy units into the air, dealing damage and slowing them"
       },
       {
         "slot": "W",
@@ -1931,7 +1931,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Cho'Gath's attacks release deadly spikes, dealing damage and slowing all enemy units in front of him"
+        "blurb": "attacks release deadly spikes, dealing damage and slowing all enemy units in front of him"
       },
       {
         "slot": "R",
@@ -1940,7 +1940,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Devours an enemy unit, dealing a high amount of true damage"
+        "blurb": "devours an enemy unit, dealing a high amount of true damage"
       }
     ],
     "wants": [
@@ -1984,7 +1984,7 @@
         "name": "Hextech Munitions",
         "damageType": "true",
         "scalesWith": [],
-        "blurb": "A percentage of Corki's basic attack damage is dealt as bonus true damage"
+        "blurb": "a percentage of basic attack damage is dealt as bonus true damage"
       },
       {
         "slot": "Q",
@@ -2012,7 +2012,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Corki's gatling gun rapidly fires in a cone in front of him, dealing damage and reducing enemy Armor and Magic Resist"
+        "blurb": "gatling gun rapidly fires in a cone in front of him, dealing damage and reducing enemy Armor and Magic Resist"
       },
       {
         "slot": "R",
@@ -2078,7 +2078,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Darius' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times"
+        "blurb": "' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times"
       },
       {
         "slot": "Q",
@@ -2100,7 +2100,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Darius's next attack strikes an enemy's crucial artery"
+        "blurb": "next attack strikes an enemy's crucial artery"
       },
       {
         "slot": "E",
@@ -2172,7 +2172,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Every third strike cleaves nearby enemies for an additional magic damage"
+        "blurb": "every third strike cleaves nearby enemies for an additional magic damage"
       },
       {
         "slot": "Q",
@@ -2182,7 +2182,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Unleashes a bolt of lunar energy in an arc dealing magic damage"
+        "blurb": "unleashes a bolt of lunar energy in an arc dealing magic damage"
       },
       {
         "slot": "W",
@@ -2200,7 +2200,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage"
+        "blurb": "becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage"
       },
       {
         "slot": "R",
@@ -2257,7 +2257,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Draven's next attack will deal bonus physical damage"
+        "blurb": "next attack will deal bonus physical damage"
       },
       {
         "slot": "W",
@@ -2359,7 +2359,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Passive - Dr"
+        "blurb": "gains bonus Attack Damage, increasing based on his max Health"
       },
       {
         "slot": "R",
@@ -2420,7 +2420,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion"
+        "blurb": "every third attack or damaging spell on the same target deals bonus magic damage, and grants a burst of speed if the target is a champion"
       },
       {
         "slot": "Q",
@@ -2439,7 +2439,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Ekko's basic attacks deal bonus magic damage to low health enemies"
+        "blurb": "basic attacks deal bonus magic damage to low health enemies"
       },
       {
         "slot": "E",
@@ -2506,7 +2506,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Human Form: When Elise's abilities hit an enemy, she gains a dormant Spiderling"
+        "blurb": "human Form: When abilities hit an enemy, she gains a dormant Spiderling"
       },
       {
         "slot": "Q",
@@ -2516,7 +2516,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Human Form: Deals damage based upon how high the target's Health is"
+        "blurb": "human Form: Deals damage based upon how high the target's Health is"
       },
       {
         "slot": "W",
@@ -2525,7 +2525,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Human Form: Releases a venom-gorged Spiderling that explodes when it nears a target"
+        "blurb": "human Form: Releases a venom-gorged Spiderling that explodes when it nears a target"
       },
       {
         "slot": "E",
@@ -2534,7 +2534,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed"
+        "blurb": "human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed"
       },
       {
         "slot": "R",
@@ -2543,7 +2543,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Transforms into a menacing spider, reducing her attack range in exchange for Move Speed, new abilities, and a Spiderling swarm that will attack her..."
+        "blurb": "transforms into a menacing spider, reducing her attack range in exchange for Move Speed, new abilities, and a Spiderling swarm that will attack her…"
       }
     ],
     "wants": [
@@ -2589,7 +2589,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "When out of combat, Evelynn enters Demon Shade"
+        "blurb": "when out of combat, enters Demon Shade"
       },
       {
         "slot": "Q",
@@ -2721,7 +2721,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non..."
+        "blurb": "winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non…"
       }
     ],
     "wants": [
@@ -2765,7 +2765,7 @@
         "name": "A Harmless Scarecrow",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Fiddlesticks' trinket is replaced by scarecrow effigies"
+        "blurb": "' trinket is replaced by scarecrow effigies"
       },
       {
         "slot": "Q",
@@ -2774,7 +2774,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "damaging enemies with spells while unseen or targeting an enemy with Terrify's activation strikes a target unit with fear, causing it to flee in te..."
+        "blurb": "damaging enemies with spells while unseen or targeting an enemy with Terrify's activation strikes a target unit with fear, causing it to flee in te…"
       },
       {
         "slot": "W",
@@ -2802,7 +2802,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area"
+        "blurb": "a murder of crows flock wildly around , dealing damage per second to all enemy units in the area"
       }
     ],
     "wants": [
@@ -2957,7 +2957,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Fizz's attacks bleed his enemies, dealing magic damage over several seconds"
+        "blurb": "attacks bleed his enemies, dealing magic damage over several seconds"
       },
       {
         "slot": "E",
@@ -3016,7 +3016,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Every few seconds, Galio's next basic attack deals bonus magic damage in an area"
+        "blurb": "every few seconds, next basic attack deals bonus magic damage in an area"
       },
       {
         "slot": "Q",
@@ -3091,14 +3091,14 @@
         "name": "Trial by Fire",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Every few seconds, Gangplank's melee strike will set his opponent on fire"
+        "blurb": "every few seconds, melee strike will set his opponent on fire"
       },
       {
         "slot": "Q",
         "name": "Parrrley",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Shoots target, plundering Gold for each enemy unit killed"
+        "blurb": "shoots target, plundering Gold for each enemy unit killed"
       },
       {
         "slot": "W",
@@ -3107,7 +3107,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Eats citrus to cure crowd control effects and restore Health"
+        "blurb": "eats citrus to cure crowd control effects and restore Health"
       },
       {
         "slot": "E",
@@ -3177,7 +3177,7 @@
         "name": "Perseverance",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second"
+        "blurb": "if has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second"
       },
       {
         "slot": "Q",
@@ -3261,7 +3261,7 @@
         "name": "Rage Gene",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "While in combat Gnar generates Rage"
+        "blurb": "while in combat generates Rage"
       },
       {
         "slot": "Q",
@@ -3281,7 +3281,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Gnar's attacks and spells hype him up, dealing bonus damage and granting him Move Speed"
+        "blurb": "attacks and spells hype him up, dealing bonus damage and granting him Move Speed"
       },
       {
         "slot": "E",
@@ -3300,7 +3300,7 @@
           "bonusAD",
           "moveSpeed"
         ],
-        "blurb": "Mega Gnar throws everything around him in a chosen direction, dealing damage and slowing them"
+        "blurb": "mega throws everything around him in a chosen direction, dealing damage and slowing them"
       }
     ],
     "wants": [
@@ -3438,7 +3438,7 @@
         "name": "New Destiny",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Graves' shotgun has some unique properties"
+        "blurb": "' shotgun has some unique properties"
       },
       {
         "slot": "Q",
@@ -3530,7 +3530,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Gwen's attacks deal bonus magic damage based on the targets health"
+        "blurb": "attacks deal bonus magic damage based on the targets health"
       },
       {
         "slot": "Q",
@@ -3712,7 +3712,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Gain Move Speed while near allied towers and turrets deployed by Heimerdinger"
+        "blurb": "gain Move Speed while near allied towers and turrets deployed by"
       },
       {
         "slot": "Q",
@@ -3885,7 +3885,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Increases the damage dealt by Tentacles"
+        "blurb": "increases the damage dealt by Tentacles"
       },
       {
         "slot": "W",
@@ -3960,7 +3960,7 @@
         "name": "Ionian Fervor",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "When Irelia strikes enemies with spells she gains stacking bonus Attack Speed"
+        "blurb": "when strikes enemies with spells she gains stacking bonus Attack Speed"
       },
       {
         "slot": "Q",
@@ -4060,7 +4060,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "In brush, Ivern and his nearby allies attacks deal bonus magic damage"
+        "blurb": "in brush, and his nearby allies attacks deal bonus magic damage"
       },
       {
         "slot": "E",
@@ -4115,7 +4115,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Janna's allies gain Move Speed moving towards her"
+        "blurb": "allies gain Move Speed moving towards her"
       },
       {
         "slot": "Q",
@@ -4124,7 +4124,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "By creating a localized change in pressure and temperature, Janna is able to create a small storm that grows in size with time"
+        "blurb": "by creating a localized change in pressure and temperature, is able to create a small storm that grows in size with time"
       },
       {
         "slot": "W",
@@ -4192,7 +4192,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Jarvan's first basic attack on an enemy deals bonus physical damage based on their current Health"
+        "blurb": "jarvan's first basic attack on an enemy deals bonus physical damage based on their current Health"
       },
       {
         "slot": "Q",
@@ -4270,7 +4270,7 @@
         "name": "Relentless Assault",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Jax's consecutive basic attacks continuously increase his Attack Speed"
+        "blurb": "consecutive basic attacks continuously increase his Attack Speed"
       },
       {
         "slot": "Q",
@@ -4299,7 +4299,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Jax's combat prowess allows him to dodge all incoming attacks for a short duration and then quickly counterattack, stunning all surrounding enemies"
+        "blurb": "combat prowess allows him to dodge all incoming attacks for a short duration and then quickly counterattack, stunning all surrounding enemies"
       },
       {
         "slot": "R",
@@ -4308,7 +4308,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Every third consecutive attack deals additional Magic Damage"
+        "blurb": "every third consecutive attack deals additional Magic Damage"
       }
     ],
     "wants": [
@@ -4354,7 +4354,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "When Jayce swaps weapons he gains Move Speed for a short duration"
+        "blurb": "when swaps weapons he gains Move Speed for a short duration"
       },
       {
         "slot": "Q",
@@ -4363,7 +4363,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Hammer Stance: Leaps to an enemy dealing physical damage and slowing enemies"
+        "blurb": "hammer Stance: Leaps to an enemy dealing physical damage and slowing enemies"
       },
       {
         "slot": "W",
@@ -4372,7 +4372,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Hammer Stance: Passive: Restores Mana per strike"
+        "blurb": "hammer Stance: Passive: Restores Mana per strike"
       },
       {
         "slot": "E",
@@ -4382,7 +4382,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Hammer Stance: Deals magic damage to an enemy and knocks them back a short distance"
+        "blurb": "hammer Stance: Deals magic damage to an enemy and knocks them back a short distance"
       },
       {
         "slot": "R",
@@ -4392,7 +4392,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range"
+        "blurb": "hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range"
       }
     ],
     "wants": [
@@ -4443,7 +4443,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Jhin's hand cannon, Whisper, is a precise instrument designed to deal superior damage"
+        "blurb": "hand cannon, Whisper, is a precise instrument designed to deal superior damage"
       },
       {
         "slot": "Q",
@@ -4622,7 +4622,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Kai'Sa's basic attacks stack Plasma, dealing increasing bonus magic damage"
+        "blurb": "basic attacks stack Plasma, dealing increasing bonus magic damage"
       },
       {
         "slot": "Q",
@@ -4700,7 +4700,7 @@
         "name": "Martial Poise",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack"
+        "blurb": "enter a movement command while winding up basic attack or Pierce to lunge a short distance when she launches her attack"
       },
       {
         "slot": "Q",
@@ -4710,7 +4710,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Throw a fast moving spear that passes through enemies it kills"
+        "blurb": "throw a fast moving spear that passes through enemies it kills"
       },
       {
         "slot": "W",
@@ -4719,7 +4719,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Gain bonus damage when Kalista and her Oathsworn strike the same target"
+        "blurb": "gain bonus damage when and her Oathsworn strike the same target"
       },
       {
         "slot": "E",
@@ -4729,7 +4729,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Attacks impale their targets with spears"
+        "blurb": "attacks impale their targets with spears"
       },
       {
         "slot": "R",
@@ -4780,7 +4780,7 @@
         "name": "Gathering Fire",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Karma's damaging abilities will reduce the cooldown of Mantra"
+        "blurb": "damaging abilities will reduce the cooldown of Mantra"
       },
       {
         "slot": "Q",
@@ -4869,7 +4869,7 @@
         "name": "Death Defied",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Upon dying, Karthus enters a spirit form that allows him to continue casting spells"
+        "blurb": "upon dying, enters a spirit form that allows him to continue casting spells"
       },
       {
         "slot": "Q",
@@ -4907,7 +4907,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "After channeling for 3 seconds, Karthus deals damage to all enemy champions"
+        "blurb": "after channeling for 3 seconds, deals damage to all enemy champions"
       }
     ],
     "wants": [
@@ -4983,7 +4983,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Passive: Kassadin's basic attacks deal bonus magic damage"
+        "blurb": "basic attacks deal bonus magic damage"
       },
       {
         "slot": "E",
@@ -5043,7 +5043,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced"
+        "blurb": "whenever an enemy champion dies that has damaged recently, her remaining ability cooldowns are dramatically reduced"
       },
       {
         "slot": "Q",
@@ -5126,7 +5126,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Kayle's attacks are empowered by the heavens as she levels up and spends skill points"
+        "blurb": "attacks are empowered by the heavens as she levels up and spends skill points"
       },
       {
         "slot": "Q",
@@ -5145,7 +5145,7 @@
           "sustain",
           "moveSpeed"
         ],
-        "blurb": "Blessed by the divine, Kayle heals and grants Move Speed to herself and the nearest ally"
+        "blurb": "blessed by the divine, heals and grants Move Speed to herself and the nearest ally"
       },
       {
         "slot": "E",
@@ -5155,7 +5155,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks"
+        "blurb": "celestial sword, Virtue, deals bonus magic damage to enemies she attacks"
       },
       {
         "slot": "R",
@@ -5327,7 +5327,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "passively deals extra damage and adds a Mark of the Storm to his target every few attacks, and he can activate this ability to damage and add anoth..."
+        "blurb": "passively deals extra damage and adds a Mark of the Storm to his target every few attacks, and he can activate this ability to damage and add anoth…"
       },
       {
         "slot": "E",
@@ -5402,7 +5402,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Nearby enemies that are Isolated from their allies are marked"
+        "blurb": "nearby enemies that are Isolated from their allies are marked"
       },
       {
         "slot": "Q",
@@ -5412,7 +5412,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Deals physical damage to the target"
+        "blurb": "deals physical damage to the target"
       },
       {
         "slot": "W",
@@ -5441,7 +5441,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Each rank allows Kha'Zix to evolve one of his abilities, giving it a unique additional effect"
+        "blurb": "each rank allows to evolve one of his abilities, giving it a unique additional effect"
       }
     ],
     "wants": [
@@ -5510,7 +5510,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Wolf enrages and attacks enemies around him"
+        "blurb": "wolf enrages and attacks enemies around him"
       },
       {
         "slot": "E",
@@ -5519,7 +5519,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Lamb fires a carefully placed shot, slowing the target"
+        "blurb": "lamb fires a carefully placed shot, slowing the target"
       },
       {
         "slot": "R",
@@ -5528,7 +5528,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Lamb grants all living things inside a zone a respite from death"
+        "blurb": "lamb grants all living things inside a zone a respite from death"
       }
     ],
     "wants": [
@@ -5678,7 +5678,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Kog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage %i:OnHit% On-Hit"
+        "blurb": "attacks gain range and deal a percent of the target's maximum health as magic damage %i:OnHit% On-Hit"
       },
       {
         "slot": "E",
@@ -5752,7 +5752,7 @@
         "name": "Dauntless Instinct",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "K'Sante's Abilities mark targets to take more damage on his next Attack"
+        "blurb": "abilities mark targets to take more damage on his next Attack"
       },
       {
         "slot": "Q",
@@ -5833,7 +5833,7 @@
         "name": "Mirror Image",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "When LeBlanc drops below 40% Health, she becomes invisible for 1 second and creates a Mirror Image that deals no damage and lasts for up to 8 seconds"
+        "blurb": "when drops below 40% Health, she becomes invisible for 1 second and creates a Mirror Image that deals no damage and lasts for up to 8 seconds"
       },
       {
         "slot": "Q",
@@ -5904,7 +5904,7 @@
         "name": "Flurry",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy"
+        "blurb": "after uses an ability, his next 2 basic attacks gain Attack Speed and return Energy"
       },
       {
         "slot": "Q",
@@ -5913,7 +5913,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Sonic Wave: Lee Sin projects a discordant wave of sound to locate his enemies, dealing physical damage to the first enemy it encounters"
+        "blurb": "sonic Wave: projects a discordant wave of sound to locate his enemies, dealing physical damage to the first enemy it encounters"
       },
       {
         "slot": "W",
@@ -5922,7 +5922,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Safeguard: Lee Sin rushes to target ally, shielding himself from damage"
+        "blurb": "safeguard: rushes to target ally, shielding himself from damage"
       },
       {
         "slot": "E",
@@ -5933,7 +5933,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Tempest: Lee Sin smashes the ground, sending out a shockwave that deals magic damage and reveals enemy units hit"
+        "blurb": "tempest: smashes the ground, sending out a shockwave that deals magic damage and reveals enemy units hit"
       },
       {
         "slot": "R",
@@ -5993,7 +5993,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Damaging spells afflict enemies with Sunlight for 1.5 seconds"
+        "blurb": "damaging spells afflict enemies with Sunlight for 1.5 seconds"
       },
       {
         "slot": "Q",
@@ -6069,7 +6069,7 @@
         "name": "Dream-Laden Bough",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Hitting a champion or monster with a skill will deal additional max Health damage over time"
+        "blurb": "hitting a champion or monster with a skill will deal additional max Health damage over time"
       },
       {
         "slot": "Q",
@@ -6081,7 +6081,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Passively, Lillia gains stacking Move Speed when hitting enemies with spells"
+        "blurb": "passively, gains stacking Move Speed when hitting enemies with spells"
       },
       {
         "slot": "W",
@@ -6154,7 +6154,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "When an enemy champion dies near Lissandra they become a Frozen Thrall"
+        "blurb": "when an enemy champion dies near they become a Frozen Thrall"
       },
       {
         "slot": "Q",
@@ -6165,7 +6165,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Throws a spear of ice that shatters when it hits an enemy, dealing magic damage and slowing Move Speed"
+        "blurb": "throws a spear of ice that shatters when it hits an enemy, dealing magic damage and slowing Move Speed"
       },
       {
         "slot": "W",
@@ -6174,7 +6174,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Freezes nearby enemies in ice, dealing magic damage and rooting them"
+        "blurb": "freezes nearby enemies in ice, dealing magic damage and rooting them"
       },
       {
         "slot": "E",
@@ -6194,7 +6194,7 @@
           "sustain",
           "moveSpeed"
         ],
-        "blurb": "If cast on an enemy champion, the target is frozen solid, stunning it"
+        "blurb": "if cast on an enemy champion, the target is frozen solid, stunning it"
       }
     ],
     "wants": [
@@ -6245,7 +6245,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Locke's attacks deal additional magic damage On-Hit, increased based on enemy missing Health"
+        "blurb": "attacks deal additional magic damage On-Hit, increased based on enemy missing Health"
       },
       {
         "slot": "Q",
@@ -6333,7 +6333,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Whenever Lucian uses an ability, his next attack becomes a double-shot"
+        "blurb": "whenever uses an ability, his next attack becomes a double-shot"
       },
       {
         "slot": "Q",
@@ -6418,7 +6418,7 @@
         "name": "Pix, Faerie Companion",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit"
+        "blurb": "pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit"
       },
       {
         "slot": "Q",
@@ -6428,7 +6428,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Pix and Lulu each fire a bolt of magical energy that damages and heavily slows all enemies it hits"
+        "blurb": "pix and each fire a bolt of magical energy that damages and heavily slows all enemies it hits"
       },
       {
         "slot": "W",
@@ -6437,7 +6437,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "If cast on an ally, grants them Attack Speed and Move Speed for a short time"
+        "blurb": "if cast on an ally, grants them Attack Speed and Move Speed for a short time"
       },
       {
         "slot": "E",
@@ -6446,7 +6446,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "If cast on an ally, commands Pix to jump to an ally and shield them"
+        "blurb": "if cast on an ally, commands Pix to jump to an ally and shield them"
       },
       {
         "slot": "R",
@@ -6496,7 +6496,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Lux's damaging spells charge the target with energy for a few seconds"
+        "blurb": "damaging spells charge the target with energy for a few seconds"
       },
       {
         "slot": "Q",
@@ -6521,7 +6521,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Fires an anomaly of twisted light to an area, which slows nearby enemies"
+        "blurb": "fires an anomaly of twisted light to an area, which slows nearby enemies"
       },
       {
         "slot": "R",
@@ -6530,7 +6530,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "After gathering energy, Lux fires a beam of light that deals damage to all targets in the area"
+        "blurb": "after gathering energy, fires a beam of light that deals damage to all targets in the area"
       }
     ],
     "wants": [
@@ -6652,7 +6652,7 @@
         "name": "Void Shift",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "When he hasn't recently taken damage or been crowd controlled, Malzahar gains massive damage reduction and crowd control immunity, lingering for a..."
+        "blurb": "when he hasn't recently taken damage or been crowd controlled, gains massive damage reduction and crowd control immunity, lingering for a short per…"
       },
       {
         "slot": "Q",
@@ -6731,7 +6731,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Maokai's basic attack also heals him and deals additional damage on a moderate cooldown"
+        "blurb": "basic attack also heals him and deals additional damage on a moderate cooldown"
       },
       {
         "slot": "Q",
@@ -6818,7 +6818,7 @@
         "name": "Double Strike",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Every few consecutive basic attack, Master Yi strikes twice"
+        "blurb": "every few consecutive basic attack, strikes twice"
       },
       {
         "slot": "Q",
@@ -6827,7 +6827,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "teleports across the battlefield with blinding speed, dealing physical damage to multiple units in his path, while simultaneously becoming untarget..."
+        "blurb": "teleports across the battlefield with blinding speed, dealing physical damage to multiple units in his path, while simultaneously becoming untarget…"
       },
       {
         "slot": "W",
@@ -6843,7 +6843,7 @@
         "name": "Wuju Style",
         "damageType": "true",
         "scalesWith": [],
-        "blurb": "Grants bonus true damage on basic attacks"
+        "blurb": "grants bonus true damage on basic attacks"
       },
       {
         "slot": "R",
@@ -6901,7 +6901,7 @@
         "name": "Searing Brilliance",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Whenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack"
+        "blurb": "whenever uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack"
       },
       {
         "slot": "Q",
@@ -6982,7 +6982,7 @@
         "name": "Fired Up!",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Milio's abilities enchant allies on touch, making their next damage deal a burst of extra damage and burn the target"
+        "blurb": "abilities enchant allies on touch, making their next damage deal a burst of extra damage and burn the target"
       },
       {
         "slot": "Q",
@@ -6991,7 +6991,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Kick a ball that knocks back an enemy"
+        "blurb": "kick a ball that knocks back an enemy"
       },
       {
         "slot": "W",
@@ -7000,7 +7000,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Create an empowering zone that heals allies and increases attack range to those inside"
+        "blurb": "create an empowering zone that heals allies and increases attack range to those inside"
       },
       {
         "slot": "E",
@@ -7155,7 +7155,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Wukong's next attack gains attack range, deals bonus damage, and reduces the target's armor for a few seconds"
+        "blurb": "next attack gains attack range, deals bonus damage, and reduces the target's armor for a few seconds"
       },
       {
         "slot": "W",
@@ -7181,7 +7181,7 @@
           "bonusAD",
           "moveSpeed"
         ],
-        "blurb": "Wukong's extends his staff and spins it around repeatedly, gaining Move Speed"
+        "blurb": "extends his staff and spins it around repeatedly, gaining Move Speed"
       }
     ],
     "wants": [
@@ -7483,7 +7483,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "When Nami's Abilities hit allied champions they gain Move Speed for a short duration"
+        "blurb": "when Abilities hit allied champions they gain Move Speed for a short duration"
       },
       {
         "slot": "Q",
@@ -7492,7 +7492,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Sends a bubble to a target area, dealing damage and stunning all enemies on impact"
+        "blurb": "sends a bubble to a target area, dealing damage and stunning all enemies on impact"
       },
       {
         "slot": "W",
@@ -7502,7 +7502,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Unleashes a stream of water that bounces back and forth between allied and enemy champions, healing allies and damaging enemies"
+        "blurb": "unleashes a stream of water that bounces back and forth between allied and enemy champions, healing allies and damaging enemies"
       },
       {
         "slot": "E",
@@ -7511,7 +7511,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Empowers an allied champion for a short duration"
+        "blurb": "empowers an allied champion for a short duration"
       },
       {
         "slot": "R",
@@ -7520,7 +7520,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Summons a massive Tidal Wave that knocks up, slows, and damages enemies"
+        "blurb": "summons a massive Tidal Wave that knocks up, slows, and damages enemies"
       }
     ],
     "wants": [
@@ -7653,7 +7653,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Nautilus' first Attack against a target deals increased physical damage and roots them briefly"
+        "blurb": "' first Attack against a target deals increased physical damage and roots them briefly"
       },
       {
         "slot": "Q",
@@ -7767,7 +7767,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "After a short preparation, Neeko leaps into the air, knocking up all nearby enemies"
+        "blurb": "after a short preparation, leaps into the air, knocking up all nearby enemies"
       }
     ],
     "wants": [
@@ -7813,7 +7813,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Moving through brush increases Nidalee's Move Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range"
+        "blurb": "moving through brush increases Move Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range"
       },
       {
         "slot": "Q",
@@ -7823,7 +7823,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "In human form, Nidalee throws a spiked javelin at her target that gains damage as it flies"
+        "blurb": "in human form, throws a spiked javelin at her target that gains damage as it flies"
       },
       {
         "slot": "W",
@@ -7832,7 +7832,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "In human form, Nidalee lays a trap for unwary opponents that, when sprung, damages and reveals its target"
+        "blurb": "in human form, lays a trap for unwary opponents that, when sprung, damages and reveals its target"
       },
       {
         "slot": "E",
@@ -7841,7 +7841,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "In human form, Nidalee channels the spirit of the cougar to heal her allies and imbue them with Attack Speed for a short duration"
+        "blurb": "in human form, channels the spirit of the cougar to heal her allies and imbue them with Attack Speed for a short duration"
       },
       {
         "slot": "R",
@@ -7905,7 +7905,7 @@
           "sustain",
           "abilityHaste"
         ],
-        "blurb": "With a snap of her whip-blade, Nilah damages any enemies she hits in a straight line in her chosen direction"
+        "blurb": "with a snap of her whip-blade, damages any enemies she hits in a straight line in her chosen direction"
       },
       {
         "slot": "W",
@@ -7935,7 +7935,7 @@
           "bonusAD",
           "sustain"
         ],
-        "blurb": "Twirling her whip-blade in joyful exuberance, Nilah deals damage to enemies around her before pulling them closer with her weapon"
+        "blurb": "twirling her whip-blade in joyful exuberance, deals damage to enemies around her before pulling them closer with her weapon"
       }
     ],
     "wants": [
@@ -7987,7 +7987,7 @@
           "bonusAD",
           "sustain"
         ],
-        "blurb": "Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself"
+        "blurb": "every few seconds, next attack strikes surrounding enemies for bonus physical damage and heals himself"
       },
       {
         "slot": "Q",
@@ -8015,7 +8015,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "plants a nightmare into his target's mind, dealing damage each second and applying fear to the target if they do not get out of range by the end of..."
+        "blurb": "plants a nightmare into his target's mind, dealing damage each second and applying fear to the target if they do not get out of range by the end of…"
       },
       {
         "slot": "R",
@@ -8075,7 +8075,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Nunu increases the attack speed and Move Speed of Willump and a nearby ally, and causes Willump's basic attacks to damage enemies around the target"
+        "blurb": "nunu increases the attack speed and Move Speed of Willump and a nearby ally, and causes Willump's basic attacks to damage enemies around the target"
       },
       {
         "slot": "Q",
@@ -8086,7 +8086,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Willump takes a bite out of a minion, monster, or enemy champion, dealing damage and healing himself"
+        "blurb": "willump takes a bite out of a minion, monster, or enemy champion, dealing damage and healing himself"
       },
       {
         "slot": "W",
@@ -8095,7 +8095,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Willump creates a snowball that grows in size and speed as he rolls it"
+        "blurb": "willump creates a snowball that grows in size and speed as he rolls it"
       },
       {
         "slot": "E",
@@ -8104,7 +8104,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Nunu throws multiple snowballs that damage enemies"
+        "blurb": "nunu throws multiple snowballs that damage enemies"
       },
       {
         "slot": "R",
@@ -8180,7 +8180,7 @@
         "name": "Tough It Out",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Olaf's Attack Speed is increased and he gains a Shield"
+        "blurb": "attack Speed is increased and he gains a Shield"
       },
       {
         "slot": "E",
@@ -8247,7 +8247,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Orianna's Attacks deal additional magic damage"
+        "blurb": "attacks deal additional magic damage"
       },
       {
         "slot": "Q",
@@ -8417,7 +8417,7 @@
         "name": "Mortal Will",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Every few spells or attacks, Pantheon's next spell is empowered"
+        "blurb": "every few spells or attacks, next spell is empowered"
       },
       {
         "slot": "Q",
@@ -8586,7 +8586,7 @@
         "name": "Gift of the Drowned Ones",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "When Pyke is hidden from enemies, he regenerates damage that he has recently taken from champions"
+        "blurb": "when is hidden from enemies, he regenerates damage that he has recently taken from champions"
       },
       {
         "slot": "Q",
@@ -8661,7 +8661,7 @@
         "name": "Royal Privilege",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Qiyana's first basic attack or ability against each enemy deals bonus damage"
+        "blurb": "first basic attack or ability against each enemy deals bonus damage"
       },
       {
         "slot": "Q",
@@ -8747,7 +8747,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Valor, Quinn's Demacian eagle, periodically marks enemies with Harrier"
+        "blurb": "valor, Demacian eagle, periodically marks enemies with Harrier"
       },
       {
         "slot": "Q",
@@ -8765,7 +8765,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Passively grants Quinn Attack Speed and Move Speed after she attacks a Harrier target"
+        "blurb": "passively grants Attack Speed and Move Speed after she attacks a Harrier target"
       },
       {
         "slot": "E",
@@ -8845,7 +8845,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Flings a magical feather that deals magic damage"
+        "blurb": "flings a magical feather that deals magic damage"
       },
       {
         "slot": "W",
@@ -8854,14 +8854,14 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Dashes to a location, knocking up nearby enemies on arrival"
+        "blurb": "dashes to a location, knocking up nearby enemies on arrival"
       },
       {
         "slot": "E",
         "name": "Battle Dance",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Flies to an allied champion granting them a shield"
+        "blurb": "flies to an allied champion granting them a shield"
       },
       {
         "slot": "R",
@@ -8871,7 +8871,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Gains Move Speed, charming and dealing magic damage to enemies touched"
+        "blurb": "gains Move Speed, charming and dealing magic damage to enemies touched"
       }
     ],
     "wants": [
@@ -9005,7 +9005,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Rek'Sai's next 3 basic attacks deal bonus Physical Damage to nearby enemies"
+        "blurb": "next 3 basic attacks deal bonus Physical Damage to nearby enemies"
       },
       {
         "slot": "W",
@@ -9090,7 +9090,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Rell's Attacks and Abilities deal additional magic damage and steal Armor and Magic Resist on hit"
+        "blurb": "attacks and Abilities deal additional magic damage and steal Armor and Magic Resist on hit"
       },
       {
         "slot": "Q",
@@ -9109,7 +9109,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Mounted: Rell Dismounts, crashing down in her armor, Knocking enemies up and gaining a large Shield"
+        "blurb": "mounted: Dismounts, crashing down in her armor, Knocking enemies up and gaining a large Shield"
       },
       {
         "slot": "E",
@@ -9119,7 +9119,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Passive: Rell gains out of combat Move Speed"
+        "blurb": "gains out of combat Move Speed"
       },
       {
         "slot": "R",
@@ -9172,7 +9172,7 @@
         "name": "Leverage",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Renata's Attacks deal bonus damage and mark enemies"
+        "blurb": "renata's Attacks deal bonus damage and mark enemies"
       },
       {
         "slot": "Q",
@@ -9181,7 +9181,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Renata sends out a missile rooting the first enemy hit, and can recast the ability to throw the unit in a direction"
+        "blurb": "renata sends out a missile rooting the first enemy hit, and can recast the ability to throw the unit in a direction"
       },
       {
         "slot": "W",
@@ -9191,7 +9191,7 @@
           "sustain",
           "moveSpeed"
         ],
-        "blurb": "Renata buffs an allied champion to fight harder, delaying their death and potentially saving them if they get a takedown"
+        "blurb": "renata buffs an allied champion to fight harder, delaying their death and potentially saving them if they get a takedown"
       },
       {
         "slot": "E",
@@ -9200,14 +9200,14 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Renata sends out a pair of chemtech missiles, shielding allies and damaging and slowing enemies hit"
+        "blurb": "renata sends out a pair of chemtech missiles, shielding allies and damaging and slowing enemies hit"
       },
       {
         "slot": "R",
         "name": "Hostile Takeover",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Renata sends out a wave of chemicals, causing any enemies hit to go Berserk"
+        "blurb": "renata sends out a wave of chemicals, causing any enemies hit to go Berserk"
       }
     ],
     "wants": [
@@ -9246,7 +9246,7 @@
         "name": "Reign of Anger",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Renekton's attacks generate Fury, increased when he is low on life"
+        "blurb": "attacks generate Fury, increased when he is low on life"
       },
       {
         "slot": "Q",
@@ -9334,7 +9334,7 @@
         "name": "Unseen Predator",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "While in Brush, Rengar leaps at his target with his basic attack"
+        "blurb": "while in Brush, leaps at his target with his basic attack"
       },
       {
         "slot": "Q",
@@ -9344,7 +9344,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Rengar's next Attack brutally stabs his target for bonus damage"
+        "blurb": "next Attack brutally stabs his target for bonus damage"
       },
       {
         "slot": "W",
@@ -9375,7 +9375,7 @@
           "bonusAD",
           "moveSpeed"
         ],
-        "blurb": "Rengar's predatory instincts take over, Camouflaging him and revealing the nearest enemy champion in a large radius around him"
+        "blurb": "predatory instincts take over, Camouflaging him and revealing the nearest enemy champion in a large radius around him"
       }
     ],
     "wants": [
@@ -9429,7 +9429,7 @@
         "name": "Runic Blade",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Riven's abilities charge her blade, and her basic attacks expend charges to deal an additional damage"
+        "blurb": "abilities charge her blade, and her basic attacks expend charges to deal an additional damage"
       },
       {
         "slot": "Q",
@@ -9502,7 +9502,7 @@
         "name": "Junkyard Titan",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Every spell Rumble casts gives him Heat"
+        "blurb": "every spell casts gives him Heat"
       },
       {
         "slot": "Q",
@@ -9589,7 +9589,7 @@
         "name": "Arcane Mastery",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Ryze's spells deal extra damage based on his Bonus Mana, and he gains a percentage increase to his maximum Mana based on his Ability Power"
+        "blurb": "spells deal extra damage based on his Bonus Mana, and he gains a percentage increase to his maximum Mana based on his Ability Power"
       },
       {
         "slot": "Q",
@@ -9600,7 +9600,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Passively, Ryze's other basic abilities reset the cooldown of Overload and charge a rune"
+        "blurb": "passively, other basic abilities reset the cooldown of Overload and charge a rune"
       },
       {
         "slot": "W",
@@ -9626,7 +9626,7 @@
         "name": "Realm Warp",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Passively, Overload deals even more damage against targets with Flux"
+        "blurb": "passively, Overload deals even more damage against targets with Flux"
       }
     ],
     "wants": [
@@ -9762,7 +9762,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "After being out of combat, Sejuani gains Frost Armor which grants Armor and Magic Resist and immunity to slows"
+        "blurb": "after being out of combat, gains Frost Armor which grants Armor and Magic Resist and immunity to slows"
       },
       {
         "slot": "Q",
@@ -9841,7 +9841,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "When units die near Senna, their souls are periodically trapped by the Black Mist"
+        "blurb": "when units die near , their souls are periodically trapped by the Black Mist"
       },
       {
         "slot": "Q",
@@ -9851,7 +9851,7 @@
           "bonusAD",
           "sustain"
         ],
-        "blurb": "From the twin barrels of her Relic Cannon, Senna fires a unified beam of light and shadow through a target, healing allies and damaging enemies"
+        "blurb": "from the twin barrels of her Relic Cannon, fires a unified beam of light and shadow through a target, healing allies and damaging enemies"
       },
       {
         "slot": "W",
@@ -9919,7 +9919,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Every third basic spell will cast twice from Seraphine"
+        "blurb": "every third basic spell will cast twice from"
       },
       {
         "slot": "Q",
@@ -9996,7 +9996,7 @@
         "name": "Pit Grit",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Sett's basic attacks alternate between left and right punch"
+        "blurb": "basic attacks alternate between left and right punch"
       },
       {
         "slot": "Q",
@@ -10007,7 +10007,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Sett's next two attacks deal additional damage based off of the target's max health"
+        "blurb": "next two attacks deal additional damage based off of the target's max health"
       },
       {
         "slot": "W",
@@ -10084,7 +10084,7 @@
         "name": "Backstab",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Shaco's basic attacks and Two-Shiv Poison deal additional damage when striking from behind"
+        "blurb": "basic attacks and Two-Shiv Poison deal additional damage when striking from behind"
       },
       {
         "slot": "Q",
@@ -10113,7 +10113,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "Shaco's Shivs passively poison targets on hit, slowing their Move Speed"
+        "blurb": "shivs passively poison targets on hit, slowing their Move Speed"
       },
       {
         "slot": "R",
@@ -10166,7 +10166,7 @@
         "name": "Ki Barrier",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "After casting a spell, Shen gets a shield"
+        "blurb": "after casting a spell, gets a shield"
       },
       {
         "slot": "Q",
@@ -10183,7 +10183,7 @@
         "name": "Spirit's Refuge",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Attacks that would hit Shen or his allies near his spirit blade are blocked"
+        "blurb": "attacks that would hit or his allies near his spirit blade are blocked"
       },
       {
         "slot": "E",
@@ -10238,7 +10238,7 @@
         "name": "Scalemail",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Takedowns on enemy champions, large minions, and large monsters grant Shyvana Scalemail stacks, improving her defenses"
+        "blurb": "takedowns on enemy champions, large minions, and large monsters grant Scalemail stacks, improving her defenses"
       },
       {
         "slot": "Q",
@@ -10248,7 +10248,7 @@
           "bonusAD",
           "ap"
         ],
-        "blurb": "Shyvana's next attack strikes both the target and the surrounding area"
+        "blurb": "next attack strikes both the target and the surrounding area"
       },
       {
         "slot": "W",
@@ -10344,14 +10344,14 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Leaves a trail of poison behind Singed, dealing damage to enemies caught in the path"
+        "blurb": "leaves a trail of poison behind , dealing damage to enemies caught in the path"
       },
       {
         "slot": "W",
         "name": "Mega Adhesive",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Throws a vial of mega adhesive on the ground, slowing and grounding enemies who walk on it"
+        "blurb": "throws a vial of mega adhesive on the ground, slowing and grounding enemies who walk on it"
       },
       {
         "slot": "E",
@@ -10360,7 +10360,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Damages target enemy unit and flings them into the air behind Singed"
+        "blurb": "damages target enemy unit and flings them into the air behind"
       },
       {
         "slot": "R",
@@ -10421,7 +10421,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "After being killed, Sion will temporarily reanimate with rapidly decaying Health"
+        "blurb": "after being killed, will temporarily reanimate with rapidly decaying Health"
       },
       {
         "slot": "Q",
@@ -10521,7 +10521,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Sivir's next few basic attacks gain additional attack speed and bounce to nearby targets, dealing reduced damage while bouncing"
+        "blurb": "next few basic attacks gain additional attack speed and bounce to nearby targets, dealing reduced damage while bouncing"
       },
       {
         "slot": "E",
@@ -10531,7 +10531,7 @@
           "sustain",
           "moveSpeed"
         ],
-        "blurb": "Creates a magical barrier that blocks a single enemy ability cast on Sivir"
+        "blurb": "creates a magical barrier that blocks a single enemy ability cast on"
       },
       {
         "slot": "R",
@@ -10591,7 +10591,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Skarner's Attacks, Shattered Earth, Upheaval, and Impale, apply Quaking"
+        "blurb": "attacks, Shattered Earth, Upheaval, and Impale, apply Quaking"
       },
       {
         "slot": "Q",
@@ -10629,7 +10629,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Skarner's tails lash forward to suppress enemy champions"
+        "blurb": "tails lash forward to suppress enemy champions"
       }
     ],
     "wants": [
@@ -10673,7 +10673,7 @@
         "name": "Dragon Practice",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Hitting champions with Abilities and killing enemies with Super Scorcher Breath grants a stack of Dragon Practice"
+        "blurb": "hitting champions with Abilities and killing enemies with Super Scorcher Breath grants a stack of Dragon Practice"
       },
       {
         "slot": "Q",
@@ -10771,7 +10771,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Accelerando: Sona gains non-Ultimate ability haste permanently for her basic abilities as she uses her abilities well, up to a cap"
+        "blurb": "accelerando : gains non-Ultimate ability haste permanently for her basic abilities as she uses her abilities well, up to a cap"
       },
       {
         "slot": "Q",
@@ -10790,7 +10790,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "plays the Aria of Perseverance, sending out protective melodies, healing Sona and a nearby wounded ally"
+        "blurb": "plays the Aria of Perseverance, sending out protective melodies, healing and a nearby wounded ally"
       },
       {
         "slot": "E",
@@ -10859,7 +10859,7 @@
           "moveSpeed",
           "abilityHaste"
         ],
-        "blurb": "A star falls from the sky at the target location dealing magic damage and slowing enemies"
+        "blurb": "a star falls from the sky at the target location dealing magic damage and slowing enemies"
       },
       {
         "slot": "W",
@@ -10877,7 +10877,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Creates a zone at a location that silences all enemies inside"
+        "blurb": "creates a zone at a location that silences all enemies inside"
       },
       {
         "slot": "R",
@@ -10927,7 +10927,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health"
+        "blurb": "ravens collect Soul Fragments that heal him and permanently increase his maximum health"
       },
       {
         "slot": "Q",
@@ -11011,7 +11011,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "After casting a spell, Sylas stores a charge of Petricite Burst"
+        "blurb": "after casting a spell, stores a charge of Petricite Burst"
       },
       {
         "slot": "Q",
@@ -11193,7 +11193,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Dive down and then re-appear at target location, damaging and knocking up all enemies in an area"
+        "blurb": "dive down and then re-appear at target location, damaging and knocking up all enemies in an area"
       },
       {
         "slot": "E",
@@ -11202,7 +11202,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Passive: Tahm Kench stores a percent of the damage he takes and heals based on it while out of combat"
+        "blurb": "stores a percent of the damage he takes and heals based on it while out of combat"
       },
       {
         "slot": "R",
@@ -11341,7 +11341,7 @@
         "name": "Blade's End",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Talon's spells Wound champions and large monsters, stacking up to 3 times"
+        "blurb": "spells Wound champions and large monsters, stacking up to 3 times"
       },
       {
         "slot": "Q",
@@ -11430,7 +11430,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Spellcasts empower Taric's next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession"
+        "blurb": "spellcasts empower next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession"
       },
       {
         "slot": "Q",
@@ -11439,14 +11439,14 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Heals nearby allied champions based on charges stored"
+        "blurb": "heals nearby allied champions based on charges stored"
       },
       {
         "slot": "W",
         "name": "Bastion",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Passively increase the Armor of Taric and any allied champion with Bastion"
+        "blurb": "passively increase the Armor of and any allied champion with Bastion"
       },
       {
         "slot": "E",
@@ -11462,7 +11462,7 @@
         "name": "Cosmic Radiance",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Pulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration"
+        "blurb": "pulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration"
       }
     ],
     "wants": [
@@ -11506,7 +11506,7 @@
         "name": "Guerrilla Warfare",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "If Teemo stands still and takes no actions for a short duration, he becomes Invisible indefinitely"
+        "blurb": "if stands still and takes no actions for a short duration, he becomes Invisible indefinitely"
       },
       {
         "slot": "Q",
@@ -11516,7 +11516,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Obscures an enemy's vision with a powerful venom, dealing damage to the target unit and blinding it for the duration"
+        "blurb": "obscures an enemy's vision with a powerful venom, dealing damage to the target unit and blinding it for the duration"
       },
       {
         "slot": "W",
@@ -11535,7 +11535,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Each of Teemo's attacks will poison the target %i:OnHit% On-Hit, dealing damage on impact and each second after for 4 seconds"
+        "blurb": "each of attacks will poison the target %i:OnHit% On-Hit , dealing damage on impact and each second after for 4 seconds"
       },
       {
         "slot": "R",
@@ -11619,7 +11619,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Thresh's attacks wind up, dealing more damage the longer he waits between attacks"
+        "blurb": "attacks wind up, dealing more damage the longer he waits between attacks"
       },
       {
         "slot": "R",
@@ -11628,7 +11628,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "A prison of walls that slow and deal damage if broken"
+        "blurb": "a prison of walls that slow and deal damage if broken"
       }
     ],
     "wants": [
@@ -11672,7 +11672,7 @@
         "name": "Draw a Bead",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Increases Tristana's Attack Range as she levels"
+        "blurb": "increases Attack Range as she levels"
       },
       {
         "slot": "Q",
@@ -11698,7 +11698,7 @@
           "bonusAD",
           "ap"
         ],
-        "blurb": "When Tristana kills a unit, her cannonballs burst into shrapnel, dealing damage to surrounding enemies"
+        "blurb": "when kills a unit, her cannonballs burst into shrapnel, dealing damage to surrounding enemies"
       },
       {
         "slot": "R",
@@ -11748,7 +11748,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "When an enemy unit dies near Trundle, he heals for a percent of its maximum Health"
+        "blurb": "when an enemy unit dies near , he heals for a percent of its maximum Health"
       },
       {
         "slot": "Q",
@@ -11872,7 +11872,7 @@
         "name": "Undying Rage",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Tryndamere's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes"
+        "blurb": "lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes"
       }
     ],
     "wants": [
@@ -11921,7 +11921,7 @@
         "name": "Loaded Dice",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Upon killing a unit, Twisted Fate rolls his 'lucky' dice receiving 1 to 6 bonus gold"
+        "blurb": "upon killing a unit, rolls his 'lucky' dice receiving 1 to 6 bonus gold"
       },
       {
         "slot": "Q",
@@ -11951,14 +11951,14 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Every 4 attacks, Twisted Fate deals bonus damage"
+        "blurb": "every 4 attacks, deals bonus damage"
       },
       {
         "slot": "R",
         "name": "Destiny",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location..."
+        "blurb": "predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports to any target location in 1.5 seconds"
       }
     ],
     "wants": [
@@ -11997,7 +11997,7 @@
         "name": "Deadly Venom",
         "damageType": "true",
         "scalesWith": [],
-        "blurb": "Twitch's basic attacks infect the target %i:OnHit% On-Hit, dealing true damage each second"
+        "blurb": "basic attacks infect the target %i:OnHit% On-Hit , dealing true damage each second"
       },
       {
         "slot": "Q",
@@ -12169,7 +12169,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Urgot's basic attacks and Purge periodically trigger blasts of flame from his legs, dealing physical damage"
+        "blurb": "basic attacks and Purge periodically trigger blasts of flame from his legs, dealing physical damage"
       },
       {
         "slot": "Q",
@@ -12178,7 +12178,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Fires an explosive charge at the target location, dealing physical damage and slowing enemies caught in the explosion"
+        "blurb": "fires an explosive charge at the target location, dealing physical damage and slowing enemies caught in the explosion"
       },
       {
         "slot": "W",
@@ -12255,7 +12255,7 @@
         "name": "Living Vengeance",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "On kill or assist, Varus temporarily gains Attack Damage and Ability Power"
+        "blurb": "on kill or assist, temporarily gains Attack Damage and Ability Power"
       },
       {
         "slot": "Q",
@@ -12273,7 +12273,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Passive: Varus' basic attacks deal bonus magic damage and apply Blight"
+        "blurb": "' basic attacks deal bonus magic damage and apply Blight"
       },
       {
         "slot": "E",
@@ -12293,7 +12293,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "flings out a damaging tendril of corruption that immobilizes the first enemy champion hit and then spreads towards nearby uninfected champions, imm..."
+        "blurb": "flings out a damaging tendril of corruption that immobilizes the first enemy champion hit and then spreads towards nearby uninfected champions, imm…"
       }
     ],
     "wants": [
@@ -12382,7 +12382,7 @@
           "bonusAD",
           "moveSpeed"
         ],
-        "blurb": "Readying herself for an epic confrontation, Vayne gains increased Attack Damage, Invisibility during Tumble, reduced Tumble cooldown, and more bonu..."
+        "blurb": "readying herself for an epic confrontation, gains increased Attack Damage, Invisibility during Tumble, reduced Tumble cooldown, and more bonus Move…"
       }
     ],
     "wants": [
@@ -12431,7 +12431,7 @@
         "name": "Phenomenal Evil Power",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "is the greatest Evil to ever strike at the hearts of Runeterra - and he's only getting bigger! Striking an enemy Champion with a spell or scoring a..."
+        "blurb": "is the greatest Evil to ever strike at the hearts of Runeterra - and he's only getting bigger! Striking an enemy Champion with a spell or scoring a…"
       },
       {
         "slot": "Q",
@@ -12467,7 +12467,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Blasts target enemy champion, dealing a large amount of magic damage, increasing based on the target's missing health"
+        "blurb": "blasts target enemy champion, dealing a large amount of magic damage, increasing based on the target's missing health"
       }
     ],
     "wants": [
@@ -12506,7 +12506,7 @@
         "name": "Organic Deconstruction",
         "damageType": "true",
         "scalesWith": [],
-        "blurb": "Vel'Koz's abilities apply Organic Deconstruction to enemies on hit"
+        "blurb": "abilities apply Organic Deconstruction to enemies on hit"
       },
       {
         "slot": "Q",
@@ -12594,7 +12594,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Launch a damaging missile that accelerates mid-flight"
+        "blurb": "launch a damaging missile that accelerates mid-flight"
       },
       {
         "slot": "W",
@@ -12603,7 +12603,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Gain a shield and damage nearby enemies"
+        "blurb": "gain a shield and damage nearby enemies"
       },
       {
         "slot": "E",
@@ -12612,7 +12612,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Summon a damaging and slowing zone that applies Gloom to enemies"
+        "blurb": "summon a damaging and slowing zone that applies Gloom to enemies"
       },
       {
         "slot": "R",
@@ -12621,7 +12621,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Fire a missile that marks an enemy champion"
+        "blurb": "fire a missile that marks an enemy champion"
       }
     ],
     "wants": [
@@ -12679,7 +12679,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Vi's punches break her opponent's Armor, dealing bonus damage and granting her Attack Speed"
+        "blurb": "punches break her opponent's Armor, dealing bonus damage and granting her Attack Speed"
       },
       {
         "slot": "E",
@@ -12689,7 +12689,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Vi's next attack blasts through her target, dealing damage to enemies behind it"
+        "blurb": "next attack blasts through her target, dealing damage to enemies behind it"
       },
       {
         "slot": "R",
@@ -12744,7 +12744,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Enemies who fall before Viego become wraiths"
+        "blurb": "enemies who fall before become wraiths"
       },
       {
         "slot": "Q",
@@ -12755,7 +12755,7 @@
           "sustain",
           "abilityHaste"
         ],
-        "blurb": "Viego's spectral blade passively deals bonus percent current Health damage On-Hit and strikes twice vs"
+        "blurb": "spectral blade passively deals bonus percent current Health damage On-Hit and strikes twice vs"
       },
       {
         "slot": "W",
@@ -12783,7 +12783,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that..."
+        "blurb": "teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that…"
       }
     ],
     "wants": [
@@ -12912,7 +12912,7 @@
         "name": "Crimson Pact",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Every 30 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.6 bonus Health (does not stack w..."
+        "blurb": "every 30 points of bonus Health gives 1 Ability Power and every 1 point of Ability Power gives 1.6 bonus Health (does not stack with itself)"
       },
       {
         "slot": "Q",
@@ -13005,7 +13005,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Volibear's Attacks and abilities grant Attack Speed, and eventually cause his Attacks to deal bonus magic damage to nearby enemies"
+        "blurb": "attacks and abilities grant Attack Speed, and eventually cause his Attacks to deal bonus magic damage to nearby enemies"
       },
       {
         "slot": "Q",
@@ -13035,7 +13035,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "summons a lightning bolt at a location, dealing damage and Slowing enemies while granting Volibear a Shield if he's inside the blast radius"
+        "blurb": "summons a lightning bolt at a location, dealing damage and Slowing enemies while granting a Shield if he's inside the blast radius"
       },
       {
         "slot": "R",
@@ -13102,7 +13102,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "Warwick's basic attacks deal bonus magic damage"
+        "blurb": "basic attacks deal bonus magic damage"
       },
       {
         "slot": "Q",
@@ -13194,7 +13194,7 @@
         "name": "Clean Cuts",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "After using an ability, Xayah's next basic attacks will hit all targets along their path and leave a Feather"
+        "blurb": "after using an ability, next basic attacks will hit all targets along their path and leave a Feather"
       },
       {
         "slot": "Q",
@@ -13274,7 +13274,7 @@
         "name": "Mana Surge",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Xerath's basic attacks periodically restore Mana"
+        "blurb": "basic attacks periodically restore Mana"
       },
       {
         "slot": "Q",
@@ -13284,7 +13284,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Fires a long-range beam of energy, dealing magic damage to all targets hit"
+        "blurb": "fires a long-range beam of energy, dealing magic damage to all targets hit"
       },
       {
         "slot": "W",
@@ -13293,7 +13293,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Calls down a barrage of arcane energy, slowing and dealing magic damage to all enemies in an area"
+        "blurb": "calls down a barrage of arcane energy, slowing and dealing magic damage to all enemies in an area"
       },
       {
         "slot": "E",
@@ -13302,7 +13302,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Deals magic damage to an enemy and stuns them"
+        "blurb": "deals magic damage to an enemy and stuns them"
       },
       {
         "slot": "R",
@@ -13352,7 +13352,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Every third attack deals bonus damage and heals Xin Zhao"
+        "blurb": "every third attack deals bonus damage and heals"
       },
       {
         "slot": "Q",
@@ -13362,7 +13362,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Xin Zhao's next 3 standard attacks deal increased damage with the third attack knocking an opponent into the air"
+        "blurb": "next 3 standard attacks deal increased damage with the third attack knocking an opponent into the air"
       },
       {
         "slot": "W",
@@ -13438,7 +13438,7 @@
         "name": "Way of the Wanderer",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Yasuo's Critical Strike Chance is increased"
+        "blurb": "critical Strike Chance is increased"
       },
       {
         "slot": "Q",
@@ -13448,14 +13448,14 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Thrusts forward, damaging all enemies in a line"
+        "blurb": "thrusts forward, damaging all enemies in a line"
       },
       {
         "slot": "W",
         "name": "Wind Wall",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Creates a moving wall that blocks all enemy projectiles for 4 seconds"
+        "blurb": "creates a moving wall that blocks all enemy projectiles for 4 seconds"
       },
       {
         "slot": "E",
@@ -13465,7 +13465,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Dashes through target enemy, dealing magic damage"
+        "blurb": "dashes through target enemy, dealing magic damage"
       },
       {
         "slot": "R",
@@ -13474,7 +13474,7 @@
         "scalesWith": [
           "bonusAD"
         ],
-        "blurb": "Blinks to an Airborne enemy champion, dealing physical damage and holding all Airborne enemies in the area in the air"
+        "blurb": "blinks to an Airborne enemy champion, dealing physical damage and holding all Airborne enemies in the area in the air"
       }
     ],
     "wants": [
@@ -13530,7 +13530,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Thrusts forward, damaging all enemies in a line"
+        "blurb": "thrusts forward, damaging all enemies in a line"
       },
       {
         "slot": "W",
@@ -13540,7 +13540,7 @@
           "bonusAD",
           "ap"
         ],
-        "blurb": "Cleaves forward, damaging all enemies in a cone"
+        "blurb": "cleaves forward, damaging all enemies in a cone"
       },
       {
         "slot": "E",
@@ -13549,7 +13549,7 @@
         "scalesWith": [
           "moveSpeed"
         ],
-        "blurb": "Yone's spirit leaves his body behind, gaining Move Speed"
+        "blurb": "spirit leaves his body behind, gaining Move Speed"
       },
       {
         "slot": "R",
@@ -13603,7 +13603,7 @@
         "name": "Shepherd of Souls",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies"
+        "blurb": "the Cursed Horde: can summon Mist Walkers to swarm and attack nearby enemies"
       },
       {
         "slot": "Q",
@@ -13643,7 +13643,7 @@
           "ap",
           "sustain"
         ],
-        "blurb": "summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage"
+        "blurb": "summons the Maiden of the Mist that causes attacks against the Maiden's target to deal bonus damage"
       }
     ],
     "wants": [
@@ -13699,7 +13699,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Yunara's Critical Strikes deal bonus magic damage"
+        "blurb": "critical Strikes deal bonus magic damage"
       },
       {
         "slot": "Q",
@@ -13786,7 +13786,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Periodically, when Yuumi strikes a champion with an attack or ability, she restores health to herself and the next ally she Attaches to"
+        "blurb": "periodically, when strikes a champion with an attack or ability, she restores health to herself and the next ally she Attaches to"
       },
       {
         "slot": "Q",
@@ -13815,7 +13815,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "Shields Yuumi and boosts Move Speed and Attack Speed"
+        "blurb": "shields and boosts Move Speed and Attack Speed"
       },
       {
         "slot": "R",
@@ -13864,7 +13864,7 @@
         "name": "Cultivation of War",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Zaahen's attacks and abilities against enemy champions  grant him stacks of Determination, gaining bonus Attack Damage per stack"
+        "blurb": "attacks and abilities against enemy champions grant him stacks of Determination, gaining bonus Attack Damage per stack"
       },
       {
         "slot": "Q",
@@ -13949,7 +13949,7 @@
         "scalesWith": [
           "sustain"
         ],
-        "blurb": "Each time Zac hits an enemy with an ability, he sheds a chunk of himself that can be reabsorbed to restore Health"
+        "blurb": "each time hits an enemy with an ability, he sheds a chunk of himself that can be reabsorbed to restore Health"
       },
       {
         "slot": "Q",
@@ -14038,7 +14038,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Zed's basic attacks against low health targets deals bonus Magic Damage"
+        "blurb": "basic attacks against low health targets deals bonus Magic Damage"
       },
       {
         "slot": "Q",
@@ -14055,7 +14055,7 @@
         "name": "Living Shadow",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Passive: Zed gains energy whenever he and his shadows strike an enemy with the same ability"
+        "blurb": "gains energy whenever he and his shadows strike an enemy with the same ability"
       },
       {
         "slot": "E",
@@ -14115,7 +14115,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Zeri's Attacks deal magic damage and are treated as Abilities"
+        "blurb": "attacks deal magic damage and are treated as Abilities"
       },
       {
         "slot": "Q",
@@ -14125,7 +14125,7 @@
           "bonusAD",
           "abilityHaste"
         ],
-        "blurb": "Burst Fire shoots a burst of 7 rounds that deal attack damage to the first enemy hit"
+        "blurb": "burst Fire shoots a burst of 7 rounds that deal attack damage to the first enemy hit"
       },
       {
         "slot": "W",
@@ -14154,7 +14154,7 @@
           "ap",
           "moveSpeed"
         ],
-        "blurb": "discharges a nova of electricity and overcharges herself, gaining increased damage and stacking Move Speed that refreshes and gets stronger every t..."
+        "blurb": "discharges a nova of electricity and overcharges herself, gaining increased damage and stacking Move Speed that refreshes and gets stronger every t…"
       }
     ],
     "wants": [
@@ -14205,7 +14205,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Periodically, Ziggs' next basic attack deals bonus magic damage"
+        "blurb": "periodically, ' next basic attack deals bonus magic damage"
       },
       {
         "slot": "Q",
@@ -14290,7 +14290,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Tosses a bomb to target area that sticks to units that come near it (prioritizes Champions)"
+        "blurb": "tosses a bomb to target area that sticks to units that come near it (prioritizes Champions)"
       },
       {
         "slot": "W",
@@ -14356,7 +14356,7 @@
         "scalesWith": [
           "ap"
         ],
-        "blurb": "Zoe's next basic attack after casting a spell deals bonus magic damage"
+        "blurb": "next basic attack after casting a spell deals bonus magic damage"
       },
       {
         "slot": "Q",
@@ -14387,14 +14387,14 @@
           "bonusAD",
           "ap"
         ],
-        "blurb": "Causes the target to become drowsy, then fall asleep"
+        "blurb": "causes the target to become drowsy, then fall asleep"
       },
       {
         "slot": "R",
         "name": "Portal Jump",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Blink to a nearby position for 1 second"
+        "blurb": "blink to a nearby position for 1 second"
       }
     ],
     "wants": [
@@ -14448,7 +14448,7 @@
         "name": "Garden of Thorns",
         "damageType": "none",
         "scalesWith": [],
-        "blurb": "Seeds spawn around Zyra periodically, becoming faster with level"
+        "blurb": "seeds spawn around periodically, becoming faster with level"
       },
       {
         "slot": "Q",
@@ -14458,7 +14458,7 @@
           "ap",
           "abilityHaste"
         ],
-        "blurb": "Thick vines spread through the ground and explode into spines, dealing magic damage to enemies within the area"
+        "blurb": "thick vines spread through the ground and explode into spines, dealing magic damage to enemies within the area"
       },
       {
         "slot": "W",

@@ -81,29 +81,31 @@ export function BuildCard({ result, rank }: { result: SearchResult; rank: number
         )}
       </div>
 
-      {/* Stats */}
-      <div className="grid grid-cols-4 gap-2 border-t border-line pt-3 text-center">
-        <div>
-          <div className={"text-lg font-bold " + winRateClass(result.winRate)}>{pct(result.winRate)}</div>
-          <div className="text-[10px] uppercase tracking-wide text-gold-bright/40">win rate</div>
-        </div>
-        <div>
-          <div className="text-lg font-bold text-gold-bright">
-            {result.games != null ? result.games.toLocaleString() : "—"}
+      {/* Stats — win-rate metrics only apply to observed builds. */}
+      {observed && (
+        <div className="grid grid-cols-4 gap-2 border-t border-line pt-3 text-center">
+          <div>
+            <div className={"text-lg font-bold " + winRateClass(result.winRate)}>{pct(result.winRate)}</div>
+            <div className="text-[10px] uppercase tracking-wide text-gold-bright/40">win rate</div>
           </div>
-          <div className="text-[10px] uppercase tracking-wide text-gold-bright/40">games</div>
-        </div>
-        <div>
-          <div className="text-lg font-bold text-gold-bright">{pct(result.pickRate)}</div>
-          <div className="text-[10px] uppercase tracking-wide text-gold-bright/40">pick rate</div>
-        </div>
-        <div>
-          <div className="text-lg font-bold text-gold-bright">{pct(result.observedScore)}</div>
-          <div className="text-[10px] uppercase tracking-wide text-gold-bright/40" title="Wilson 95% lower bound of win rate — rewards sample size">
-            confidence
+          <div>
+            <div className="text-lg font-bold text-gold-bright">
+              {result.games != null ? result.games.toLocaleString() : "—"}
+            </div>
+            <div className="text-[10px] uppercase tracking-wide text-gold-bright/40">games</div>
+          </div>
+          <div>
+            <div className="text-lg font-bold text-gold-bright">{pct(result.pickRate)}</div>
+            <div className="text-[10px] uppercase tracking-wide text-gold-bright/40">pick rate</div>
+          </div>
+          <div>
+            <div className="text-lg font-bold text-gold-bright">{pct(result.observedScore)}</div>
+            <div className="text-[10px] uppercase tracking-wide text-gold-bright/40" title="Wilson 95% lower bound of win rate — rewards sample size">
+              confidence
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Synergy — the "why" */}
       <div className="mt-3 border-t border-line pt-3">

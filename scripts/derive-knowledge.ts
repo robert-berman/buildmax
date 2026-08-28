@@ -147,24 +147,29 @@ function firstNum(burn: string): number {
   return m ? Number(m[0]) : NaN;
 }
 
+function escapeRegex(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 function blurbFrom(desc: string, champName: string): string {
   if (!desc) return "";
-  let s = desc.replace(/<[^>]+>/g, "").trim();
-  // Strip a leading "<ChampName> " so the clause reads verb-first.
-  const prefix = `${champName} `;
-  let stripped = false;
-  if (s.startsWith(prefix)) {
-    s = s.slice(prefix.length);
-    stripped = true;
-  }
-  // First sentence only. End it on a period followed by whitespace, an uppercase
-  // letter (Data Dragon sometimes omits the space, e.g. "heals.After taking"), or
-  // end-of-string. The digit case is left alone so decimals like "1.5" survive.
+  let s = desc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  // Drop Data Dragon lead-ins like "Passive - ", "Active: ", "Innate - ".
+  s = s.replace(/^(passive|active|innate|first cast|second cast|recast)\s*[-–:]\s*/i, "");
+  // Remove the champion's own name (and possessive). Names like "Dr. Mundo"
+  // contain a period that would otherwise be read as a sentence boundary and
+  // truncate the blurb ("Passive - Dr").
+  const nameRe = new RegExp(escapeRegex(champName) + "(?:['’]s)?", "gi");
+  s = s.replace(nameRe, "").replace(/\s+/g, " ").trim();
+  // First sentence only. End on a period followed by whitespace, an uppercase
+  // letter (ddragon sometimes omits the space, e.g. "heals.After"), or the end.
+  // A period followed by a digit (e.g. "1.5") is left intact.
   const end = /\.(\s|[A-Z]|$)/.exec(s);
   if (end && end.index > 0) s = s.slice(0, end.index);
-  s = s.replace(/\.$/, "").trim();
-  if (stripped) s = s.charAt(0).toLowerCase() + s.slice(1);
-  if (s.length > 150) s = s.slice(0, 147).trimEnd() + "...";
+  s = s.replace(/[.\s]+$/, "").trim();
+  // Read as a verb-first clause.
+  if (s) s = s.charAt(0).toLowerCase() + s.slice(1);
+  if (s.length > 150) s = s.slice(0, 147).trimEnd() + "…";
   return s;
 }
 
