@@ -56,13 +56,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on The Darkin Blade (Q) and Infernal Chains (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "moveSpeed",
@@ -152,12 +157,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Orb of Deception (Q) far more often"
       },
       {
@@ -172,7 +177,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -232,29 +237,29 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Five Point Strike (Q) and Shuriken Flip (E)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
-      },
-      {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Five Point Strike (Q) far more often"
       },
       {
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Twilight Shroud (W) and helps you stick to targets"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with strong mobility and crowd control",
@@ -421,6 +426,16 @@
         "why": "fuels the healing on Triumphant Roar (P) through extended fights"
       },
       {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Pulverize (Q) and Headbutt (W)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
         "tag": "abilityHaste",
         "weight": 0.4,
         "why": "shortens your cooldowns so you cast Trample (E) far more often"
@@ -483,13 +498,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Cunning Sweep / Sundering Slam (Q) and Repudiation (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -587,6 +607,16 @@
         "tag": "abilityHaste",
         "weight": 0.5,
         "why": "shortens your cooldowns so you cast Despair (W) far more often"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Tantrum (E)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Bandage Toss (Q) and Despair (W)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with crowd control",
@@ -650,17 +680,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Frostbite (E) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -729,12 +759,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Disintegrate (Q) far more often"
       },
       {
@@ -744,7 +774,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -956,17 +986,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Breath of Light (Q) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -1034,12 +1064,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Twofold Hex (Q) far more often"
       },
       {
@@ -1054,7 +1084,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -1120,17 +1150,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Arise! (W) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -1207,6 +1237,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Traveler's Call (P) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Cosmic Binding (Q)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -1268,13 +1308,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Void Surge (Q) and Royal Maelstrom (E)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -1371,6 +1416,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Overdrive (W) and helps you stick to targets"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Power Fist (E)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Rocket Grab (Q) and Static Field (R)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with strong mobility and crowd control",
@@ -1435,17 +1490,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Sear (Q) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -1528,6 +1583,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Unbreakable (E) and helps you stick to targets"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Winter's Bite (Q) and Glacial Fissure (R)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with strong mobility and crowd control",
@@ -1593,13 +1658,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Head Rush (Q) and Blood Frenzy / Snack Attack (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "armor",
@@ -1620,11 +1690,6 @@
         "tag": "abilityHaste",
         "weight": 0.45,
         "why": "shortens your cooldowns so you cast Head Rush (Q) far more often"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Crimson Curse (P) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -1768,13 +1833,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Precision Protocol (Q) and Tactical Sweep (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -1864,12 +1934,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Twin Fang (E) far more often"
       },
       {
@@ -1884,7 +1954,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -1968,6 +2038,16 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Feast (R) through extended fights"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Rupture (Q) and Feral Scream (W)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing and crowd control",
@@ -1977,7 +2057,7 @@
     "championId": "Corki",
     "name": "Corki",
     "identity": "carry",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -2027,19 +2107,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Phosphorus Bomb (Q) and Valkyrie (W)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Gatling Gun (E) and Missile Barrage (R)"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "armor",
@@ -2121,14 +2196,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Decimate (Q) and Crippling Strike (W)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Decimate (Q) and Crippling Strike (W)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -2149,11 +2229,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Decimate (Q) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -2214,14 +2289,19 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.8,
+        "why": "powers your magic damage on Crescent Strike (Q) and Pale Cascade (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
@@ -2402,6 +2482,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Infected Bonesaw (Q) through extended fights"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Blunt Force Trauma (E)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing, strong mobility and crowd control",
@@ -2464,29 +2549,29 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Timewinder (Q) and Parallel Convergence (W)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
-      },
-      {
-        "tag": "health",
-        "weight": 0.55,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Timewinder (Q) far more often"
       },
       {
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Chronobreak (R) through extended fights"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing and crowd control",
@@ -2548,18 +2633,18 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Neurotoxin / Venomous Bite (Q) and Volatile Spiderling / Skittering Frenzy (W)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Neurotoxin / Venomous Bite (Q) far more often"
       },
       {
@@ -2571,6 +2656,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Spider Queen (P) through extended fights"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing, strong mobility and crowd control",
@@ -2634,23 +2724,18 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Hate Spike (Q) and Allure (W)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
-      },
-      {
-        "tag": "health",
-        "weight": 0.55,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Hate Spike (Q) far more often"
       },
       {
@@ -2667,6 +2752,11 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
+      },
+      {
+        "tag": "sustain",
+        "weight": 0.45,
+        "why": "fuels the healing on Demon Shade (P) through extended fights"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing, strong mobility and crowd control",
@@ -2676,7 +2766,7 @@
     "championId": "Ezreal",
     "name": "Ezreal",
     "identity": "carry",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -2726,19 +2816,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Essence Flux (W) and Arcane Shift (E)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Mystic Shot (Q)"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
@@ -2813,12 +2898,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Bountiful Harvest (W) far more often"
       },
       {
@@ -2828,7 +2913,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -2893,13 +2978,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Lunge (Q) and Bladework (E)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "moveSpeed",
@@ -2981,23 +3071,23 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.85,
+        "weight": 0.9,
         "why": "scales your physical damage on Urchin Strike (Q)"
       },
       {
         "tag": "armorPen",
-        "weight": 0.8,
+        "weight": 0.65,
         "why": "helps your physical damage cut through armor"
       },
       {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "tag": "abilityHaste",
+        "weight": 0.55,
+        "why": "shortens your cooldowns so you cast Seastone Trident (W) far more often"
       },
       {
-        "tag": "abilityHaste",
-        "weight": 0.5,
-        "why": "shortens your cooldowns so you cast Seastone Trident (W) far more often"
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with crowd control",
@@ -3072,6 +3162,16 @@
         "why": "keeps you alive against magic damage"
       },
       {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Winds of War (Q) and Shield of Durand (W)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
         "tag": "abilityHaste",
         "weight": 0.4,
         "why": "shortens your cooldowns so you cast Winds of War (Q) far more often"
@@ -3134,13 +3234,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Powder Keg (E) and Cannon Barrage (R)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -3217,14 +3322,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Decisive Strike (Q) and Judgment (E)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Decisive Strike (Q) and Judgment (E)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -3305,14 +3415,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Boomerang Throw / Boulder Toss (Q) and Hop / Crunch (E)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Boomerang Throw / Boulder Toss (Q) and Hop / Crunch (E)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -3394,14 +3509,19 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.8,
+        "why": "powers your magic damage on Barrel Roll (Q) and Drunken Rage (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
@@ -3572,13 +3692,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Snip Snip! (Q)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -3661,14 +3786,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Rampage (Q) and Devastating Charge (E)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Rampage (Q) and Devastating Charge (E)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -3689,11 +3819,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Spirit of Dread (W) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -3757,12 +3882,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Hextech Micro-Rockets (W) far more often"
       },
       {
@@ -3772,7 +3897,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -3840,12 +3965,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Subject: Disaster (Q) far more often"
       },
       {
@@ -3855,7 +3980,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -3916,14 +4041,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Tentacle Smash (Q) and Harsh Lesson (W)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Tentacle Smash (Q) and Harsh Lesson (W)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -4003,13 +4133,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Bladesurge (Q) and Defiant Dance (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -4096,6 +4231,16 @@
         "tag": "sustain",
         "weight": 0.5,
         "why": "keeps you healthy through extended fights"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Rootcaller (Q) and Brushmaker (W)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with crowd control",
@@ -4174,6 +4319,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Tailwind (P) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Howling Gale (Q) and Zephyr (W)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -4231,14 +4386,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Dragon Strike (Q) and Cataclysm (R)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Dragon Strike (Q) and Cataclysm (R)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "armor",
@@ -4314,13 +4474,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Leap Strike (Q)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -4398,13 +4563,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on To the Skies! / Shock Blast (Q)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -4434,7 +4604,7 @@
     "championId": "Jhin",
     "name": "Jhin",
     "identity": "carry",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -4487,19 +4657,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Captive Audience (E)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Dancing Grenade (Q) and Deadly Flourish (W)"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "moveSpeed",
@@ -4613,7 +4778,7 @@
     "championId": "Kaisa",
     "name": "Kai'Sa",
     "identity": "carry",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -4661,19 +4826,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Void Seeker (W)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Icathian Rain (Q)"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "moveSpeed",
@@ -4831,12 +4991,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Inner Flame (Q) far more often"
       },
       {
@@ -4851,7 +5011,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -4918,12 +5078,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Lay Waste (Q) far more often"
       },
       {
@@ -4943,7 +5103,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -5007,24 +5167,24 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Null Sphere (Q) and Nether Blade (W)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
-      },
-      {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Riftwalk (R) far more often"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with crowd control",
@@ -5034,7 +5194,7 @@
     "championId": "Katarina",
     "name": "Katarina",
     "identity": "burst",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -5085,29 +5245,29 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "scales your physical damage on Death Lotus (R)"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Bouncing Blade (Q) and Shunpo (E)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
-      },
-      {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Bouncing Blade (Q) far more often"
       },
       {
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Preparation (W) and helps you stick to targets"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with strong mobility",
@@ -5169,24 +5329,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Radiant Blast (Q) and Starfire Spellblade (E)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "raises your attack damage"
-      },
-      {
-        "tag": "health",
-        "weight": 0.55,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "moveSpeed",
@@ -5202,6 +5352,16 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
+      },
+      {
+        "tag": "abilityHaste",
+        "weight": 0.5,
+        "why": "shortens your cooldowns so you cast Starfire Spellblade (E) far more often"
+      },
+      {
+        "tag": "sustain",
+        "weight": 0.45,
+        "why": "fuels the healing on Celestial Blessing (W) through extended fights"
       }
     ],
     "notes": "a ranged carry that scales with attack speed, crit and attack damage, with built-in healing, strong mobility and crowd control",
@@ -5265,13 +5425,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Reaping Slash (Q) and Blade's Reach (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -5357,12 +5522,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Thundering Shuriken (Q) far more often"
       },
       {
@@ -5382,7 +5547,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -5447,22 +5612,17 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.85,
+        "weight": 0.9,
         "why": "scales your physical damage on Taste Their Fear (Q) and Void Spike (W)"
       },
       {
         "tag": "armorPen",
-        "weight": 0.8,
+        "weight": 0.65,
         "why": "helps your physical damage cut through armor"
       },
       {
-        "tag": "health",
-        "weight": 0.55,
-        "why": "gives the durability to survive fights and keep dealing damage"
-      },
-      {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Taste Their Fear (Q) far more often"
       },
       {
@@ -5474,6 +5634,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Void Spike (W) through extended fights"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing, strong mobility and crowd control",
@@ -5621,13 +5786,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Bear Trap on a Rope (Q) and Violent Tendencies (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "moveSpeed",
@@ -5703,19 +5873,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Caustic Spittle (Q) and Bio-Arcane Barrage (W)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "raises your attack damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "armor",
@@ -5736,6 +5901,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Living Artillery (R) through extended fights"
+      },
+      {
+        "tag": "lifesteal",
+        "weight": 0.4,
+        "why": "sustains you through drawn-out fights"
       }
     ],
     "notes": "a ranged carry that scales with attack speed, crit and attack damage, with built-in healing and crowd control",
@@ -5817,6 +5987,16 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on All Out (R) through extended fights"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Ntofo Strikes (Q) and Path Maker (W)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Path Maker (W)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing and crowd control",
@@ -5875,19 +6055,24 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Sigil of Malice (Q) and Distortion (W)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Sigil of Malice (Q) far more often"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with crowd control",
@@ -5948,13 +6133,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Sonic Wave / Resonating Strike (Q) and Dragon's Rage (R)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -6053,6 +6243,16 @@
         "tag": "abilityHaste",
         "weight": 0.5,
         "why": "shortens your cooldowns so you cast Shield of Daybreak (Q) far more often"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Shield of Daybreak (Q) and Eclipse (W)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with crowd control",
@@ -6062,7 +6262,7 @@
     "championId": "Lillia",
     "name": "Lillia",
     "identity": "bruiser",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -6113,14 +6313,19 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Blooming Blows (Q)"
+        "tag": "ap",
+        "weight": 0.8,
+        "why": "powers your magic damage on Blooming Blows (Q) and Watch Out! Eep! (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
@@ -6205,12 +6410,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Ice Shard (Q) far more often"
       },
       {
@@ -6225,7 +6430,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -6287,23 +6492,18 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Ritual Nails (Q) and Ashen Pursuit (E)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
-      },
-      {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Ritual Nails (Q) far more often"
       },
       {
@@ -6315,6 +6515,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Soul Ignition (W) through extended fights"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing, strong mobility and crowd control",
@@ -6478,6 +6683,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Whimsy (W) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Glitterlance (Q) and Help, Pix! (E)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -6541,17 +6756,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Light Binding (Q) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -6562,7 +6777,7 @@
     "championId": "Malphite",
     "name": "Malphite",
     "identity": "tank",
-    "damageType": "mixed",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -6636,6 +6851,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Seismic Shard (Q) and helps you stick to targets"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Seismic Shard (Q) and Ground Slam (E)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with strong mobility and crowd control",
@@ -6701,17 +6926,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Call of the Void (Q) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -6802,6 +7027,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Sap Magic (P) through extended fights"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Bramble Smash (Q) and Twisted Advance (W)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing, strong mobility and crowd control",
@@ -6858,13 +7088,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Alpha Strike (Q)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "moveSpeed",
@@ -6949,12 +7184,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Radiant Volley (Q) far more often"
       },
       {
@@ -6964,7 +7199,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -7041,6 +7276,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Warm Hugs (E) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Ultra Mega Fire Kick (Q)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -7050,7 +7295,7 @@
     "championId": "MissFortune",
     "name": "Miss Fortune",
     "identity": "carry",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -7101,19 +7346,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Make It Rain (E)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Double Up (Q) and Bullet Time (R)"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "moveSpeed",
@@ -7186,14 +7426,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Crushing Blow (Q) and Cyclone (R)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Crushing Blow (Q) and Cyclone (R)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -7272,14 +7517,19 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.8,
+        "why": "powers your magic damage on Obliterate (Q) and Death's Grasp (E)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
@@ -7376,6 +7626,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Soul Shackles (R) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Dark Binding (Q) and Tormented Shadow (W)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -7438,22 +7698,17 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.85,
+        "weight": 0.9,
         "why": "scales your physical damage on Darkin Daggers (Q) and The Call of the Pack (W)"
       },
       {
         "tag": "armorPen",
-        "weight": 0.8,
+        "weight": 0.65,
         "why": "helps your physical damage cut through armor"
       },
       {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
-      },
-      {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Darkin Daggers (Q) far more often"
       },
       {
@@ -7465,6 +7720,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Darkin Daggers (Q) through extended fights"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing, strong mobility and crowd control",
@@ -7543,6 +7803,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Surging Tides (P) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Aqua Prison (Q) and Ebb and Flow (W)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -7602,14 +7872,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Siphoning Strike (Q)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Siphoning Strike (Q)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -7630,11 +7905,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Fury of the Sands (R) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -7713,6 +7983,16 @@
         "tag": "abilityHaste",
         "weight": 0.5,
         "why": "shortens your cooldowns so you cast Riptide (E) far more often"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Dredge Line (Q) and Titan's Wrath (W)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with crowd control",
@@ -7778,12 +8058,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Blooming Burst (Q) far more often"
       },
       {
@@ -7793,7 +8073,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -7853,18 +8133,18 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.85,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Javelin Toss / Takedown (Q) and Bushwhack / Pounce (W)"
       },
       {
-        "tag": "armorPen",
-        "weight": 0.8,
-        "why": "helps your physical damage cut through armor"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Javelin Toss / Takedown (Q) far more often"
       },
       {
@@ -7876,6 +8156,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Primal Surge / Swipe (E) through extended fights"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing and strong mobility",
@@ -7941,13 +8226,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Formless Blade (Q) and Slipstream (E)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -8030,13 +8320,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Duskbringer (Q) and Paranoia (R)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -8066,7 +8361,7 @@
     "championId": "Nunu",
     "name": "Nunu & Willump",
     "identity": "tank",
-    "damageType": "mixed",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -8143,9 +8438,14 @@
         "why": "fuels the healing on Consume (Q) through extended fights"
       },
       {
-        "tag": "abilityHaste",
+        "tag": "ap",
         "weight": 0.4,
-        "why": "shortens your cooldowns so you cast Consume (Q) far more often"
+        "why": "powers your magic damage on Consume (Q) and Biggest Snowball Ever! (W)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing, strong mobility and crowd control",
@@ -8201,14 +8501,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Undertow (Q)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Undertow (Q)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -8298,12 +8603,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Command: Attack (Q) far more often"
       },
       {
@@ -8323,7 +8628,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -8401,6 +8706,16 @@
         "tag": "abilityHaste",
         "weight": 0.5,
         "why": "shortens your cooldowns so you cast Volcanic Rupture (Q) far more often"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Volcanic Rupture (Q) and Searing Charge (E)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Bellows Breath (W) and Call of the Forge God (R)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with crowd control",
@@ -8461,13 +8776,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Comet Spear (Q) and Shield Vault (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "armor",
@@ -8570,6 +8890,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Steadfast Presence (W) and helps you stick to targets"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Hammer Shock (Q) and Heroic Charge (E)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Steadfast Presence (W)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with strong mobility and crowd control",
@@ -8633,7 +8963,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.7,
+        "weight": 0.5,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
@@ -8645,6 +8975,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Ghostwater Dive (W) and helps you stick to targets"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.4,
+        "why": "helps your physical damage cut through armor"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.35,
+        "why": "scales your physical damage on Bone Skewer (Q) and Phantom Undertow (E)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with strong mobility and crowd control",
@@ -8707,28 +9047,28 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.85,
+        "weight": 0.9,
         "why": "scales your physical damage on Elemental Wrath / Edge of Ixtal (Q) and Audacity (E)"
       },
       {
         "tag": "armorPen",
-        "weight": 0.8,
+        "weight": 0.65,
         "why": "helps your physical damage cut through armor"
       },
       {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
-      },
-      {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Elemental Wrath / Edge of Ixtal (Q) far more often"
       },
       {
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Elemental Wrath / Edge of Ixtal (Q) and helps you stick to targets"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with strong mobility and crowd control",
@@ -8882,7 +9222,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.55,
+        "weight": 0.5,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
@@ -8894,6 +9234,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds The Quickness (R) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Gleaming Quill (Q) and Grand Entrance (W)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -8977,6 +9327,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Powerball (Q) and helps you stick to targets"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Powerball (Q) and Defensive Ball Curl (W)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with strong mobility and crowd control",
@@ -9039,14 +9399,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Queen's Wrath / Prey Seeker (Q) and Furious Bite / Tunnel (E)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Queen's Wrath / Prey Seeker (Q) and Furious Bite / Tunnel (E)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -9067,11 +9432,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Fury of the Xer'Sai (P) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -9153,6 +9513,16 @@
         "why": "feeds Ferromancy: Crash Down (W) and helps you stick to targets"
       },
       {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Shattering Strike (Q) and Ferromancy: Crash Down (W)"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
         "tag": "abilityHaste",
         "weight": 0.4,
         "why": "shortens your cooldowns so you cast Ferromancy: Crash Down (W) far more often"
@@ -9230,6 +9600,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Bailout (W) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Handshake (Q) and Loyalty Program (E)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -9290,14 +9670,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Cull the Meek (Q) and Ruthless Predator (W)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Cull the Meek (Q) and Ruthless Predator (W)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -9381,22 +9766,17 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.85,
+        "weight": 0.9,
         "why": "scales your physical damage on Savagery (Q) and Bola Strike (E)"
       },
       {
         "tag": "armorPen",
-        "weight": 0.8,
+        "weight": 0.65,
         "why": "helps your physical damage cut through armor"
       },
       {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
-      },
-      {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Savagery (Q) far more often"
       },
       {
@@ -9413,6 +9793,11 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
+      },
+      {
+        "tag": "sustain",
+        "weight": 0.45,
+        "why": "fuels the healing on Battle Roar (W) through extended fights"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing, strong mobility and crowd control",
@@ -9469,13 +9854,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Broken Wings (Q) and Ki Burst (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -9545,14 +9935,19 @@
     ],
     "wants": [
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "raises your attack damage"
+        "tag": "ap",
+        "weight": 0.8,
+        "why": "powers your magic damage on Flamespitter (Q) and Electro Harpoon (E)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
@@ -9637,12 +10032,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Spell Flux (E) far more often"
       },
       {
@@ -9652,7 +10047,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -9823,6 +10218,16 @@
         "tag": "abilityHaste",
         "weight": 0.5,
         "why": "shortens your cooldowns so you cast Permafrost (E) far more often"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Winter's Wrath (W)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Arctic Assault (Q) and Permafrost (E)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with crowd control",
@@ -9901,6 +10306,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Absolution (P) and helps you stick to targets"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.4,
+        "why": "helps your physical damage cut through armor"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.35,
+        "why": "scales your physical damage on Piercing Darkness (Q) and Last Embrace (W)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -9980,6 +10395,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Surround Sound (W) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on High Note (Q) and Beat Drop (E)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -10040,14 +10465,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Knuckle Down (Q) and Haymaker (W)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Knuckle Down (Q) and Haymaker (W)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -10128,28 +10558,28 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.85,
+        "weight": 0.9,
         "why": "scales your physical damage on Deceive (Q)"
       },
       {
         "tag": "armorPen",
-        "weight": 0.8,
+        "weight": 0.65,
         "why": "helps your physical damage cut through armor"
       },
       {
-        "tag": "health",
-        "weight": 0.55,
-        "why": "gives the durability to survive fights and keep dealing damage"
-      },
-      {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Two-Shiv Poison (E) far more often"
       },
       {
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Two-Shiv Poison (E) and helps you stick to targets"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with strong mobility and crowd control",
@@ -10222,6 +10652,16 @@
         "tag": "abilityHaste",
         "weight": 0.5,
         "why": "shortens your cooldowns so you cast Twilight Assault (Q) far more often"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Shadow Dash (E)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Twilight Assault (Q)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with crowd control",
@@ -10283,14 +10723,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Emberstrike (Q)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Emberstrike (Q)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -10311,11 +10756,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Inferno Aegis (W) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -10403,6 +10843,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Insanity Potion (R) through extended fights"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Poison Trail (Q) and Fling (E)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing, strong mobility and crowd control",
@@ -10485,6 +10930,16 @@
         "tag": "abilityHaste",
         "weight": 0.4,
         "why": "shortens your cooldowns so you cast Decimating Smash (Q) far more often"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Decimating Smash (Q) and Unstoppable Onslaught (R)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Soul Furnace (W) and Roar of the Slayer (E)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing and crowd control",
@@ -10657,6 +11112,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Impale (R) and helps you stick to targets"
+      },
+      {
+        "tag": "bonusAD",
+        "weight": 0.3,
+        "why": "scales your physical damage on Shattered Earth / Upheaval (Q) and Ixtal's Impact (E)"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.3,
+        "why": "powers your magic damage on Seismic Bastion (W) and Impale (R)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with strong mobility and crowd control",
@@ -10666,7 +11131,7 @@
     "championId": "Smolder",
     "name": "Smolder",
     "identity": "carry",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -10720,19 +11185,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Super Scorcher Breath (Q) and Achooo! (W)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Super Scorcher Breath (Q) and Achooo! (W)"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "moveSpeed",
@@ -10831,6 +11291,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Song of Celerity (E) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Hymn of Valor (Q) and Crescendo (R)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -10909,6 +11379,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Starcall (Q) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Starcall (Q) and Equinox (E)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -10976,12 +11456,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Death's Hand (Q) far more often"
       },
       {
@@ -10991,7 +11471,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -11057,23 +11537,23 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
-      },
-      {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Chain Lash (Q) far more often"
       },
       {
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Kingslayer (W) through extended fights"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "an ability caster that scales with ability power, penetration and ability haste, with built-in healing and crowd control",
@@ -11140,12 +11620,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Dark Sphere (Q) far more often"
       },
       {
@@ -11155,7 +11635,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -11246,6 +11726,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Tongue Lash (Q) through extended fights"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Tongue Lash (Q) and Abyssal Dive (W)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing, strong mobility and crowd control",
@@ -11308,12 +11793,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Threaded Volley (Q) far more often"
       },
       {
@@ -11323,7 +11808,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -11385,22 +11870,17 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.85,
+        "weight": 0.9,
         "why": "scales your physical damage on Noxian Diplomacy (Q) and Rake (W)"
       },
       {
         "tag": "armorPen",
-        "weight": 0.8,
+        "weight": 0.65,
         "why": "helps your physical damage cut through armor"
       },
       {
-        "tag": "health",
-        "weight": 0.7,
-        "why": "gives the durability to survive fights and keep dealing damage"
-      },
-      {
         "tag": "abilityHaste",
-        "weight": 0.5,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Noxian Diplomacy (Q) far more often"
       },
       {
@@ -11412,6 +11892,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Noxian Diplomacy (Q) through extended fights"
+      },
+      {
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with built-in healing, strong mobility and crowd control",
@@ -11490,6 +11975,16 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Dazzle (E)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing and crowd control",
@@ -11550,19 +12045,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Blinding Dart (Q) and Toxic Shot (E)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "raises your attack damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "moveSpeed",
@@ -11656,6 +12146,16 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Death Sentence (Q) and Flay (E)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with crowd control",
@@ -11789,14 +12289,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Chomp (Q)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Chomp (Q)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -11817,11 +12322,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on King's Tribute (P) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -11878,13 +12378,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Spinning Slash (E)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "moveSpeed",
@@ -11969,17 +12474,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Stacked Deck (E) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -12118,14 +12623,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Wilding Claw (Q)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Wilding Claw (Q)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -12146,11 +12656,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Iron Mantle (W) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -12211,14 +12716,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Corrosive Charge (Q) and Purge (W)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Corrosive Charge (Q) and Purge (W)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "armor",
@@ -12248,7 +12758,7 @@
     "championId": "Varus",
     "name": "Varus",
     "identity": "carry",
-    "damageType": "physical",
+    "damageType": "magic",
     "abilities": [
       {
         "slot": "P",
@@ -12298,19 +12808,14 @@
     ],
     "wants": [
       {
-        "tag": "attackSpeed",
-        "weight": 0.85,
-        "why": "lets you attack faster to apply on-hit effects and your kit more often"
+        "tag": "ap",
+        "weight": 0.9,
+        "why": "powers your magic damage on Blighted Quiver (W) and Chain of Corruption (R)"
       },
       {
-        "tag": "crit",
-        "weight": 0.85,
-        "why": "makes your attacks and abilities crit for burst"
-      },
-      {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Piercing Arrow (Q) and Hail of Arrows (E)"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "moveSpeed",
@@ -12478,17 +12983,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Dark Matter (W) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -12556,17 +13061,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Void Rift (W) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -12632,17 +13137,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Mistral Bolt (Q) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -12704,13 +13209,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Vault Breaker (Q) and Denting Blows (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -12789,13 +13299,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Blade of the Ruined King (Q) and Heartbreaker (R)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -12879,12 +13394,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Siphon Power (Q) far more often"
       },
       {
@@ -12894,7 +13409,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -12965,12 +13480,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Transfusion (Q) far more often"
       },
       {
@@ -12985,7 +13500,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -13050,14 +13565,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Thundering Smash (Q) and Frenzied Maul (W)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Thundering Smash (Q) and Frenzied Maul (W)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -13078,11 +13598,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Frenzied Maul (W) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -13145,14 +13660,19 @@
     ],
     "wants": [
       {
+        "tag": "ap",
+        "weight": 0.8,
+        "why": "powers your magic damage on Jaws of the Beast (Q) and Infinite Duress (R)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "raises your attack damage"
+        "tag": "magicPen",
+        "weight": 0.65,
+        "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
@@ -13173,11 +13693,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Eternal Hunger (P) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -13322,17 +13837,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Arcanopulse (Q) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -13394,14 +13909,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Three Talon Strike (Q) and Wind Becomes Lightning (W)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Three Talon Strike (Q) and Wind Becomes Lightning (W)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -13480,13 +14000,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Steel Tempest (Q) and Last Breath (R)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -13565,13 +14090,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on Mortal Steel (Q) and Spirit Cleave (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -13648,14 +14178,19 @@
     ],
     "wants": [
       {
+        "tag": "bonusAD",
+        "weight": 0.8,
+        "why": "scales your physical damage on Last Rites (Q)"
+      },
+      {
         "tag": "health",
         "weight": 0.75,
         "why": "gives the durability to survive fights and keep dealing damage"
       },
       {
-        "tag": "bonusAD",
-        "weight": 0.7,
-        "why": "scales your physical damage on Last Rites (Q)"
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -13676,11 +14211,6 @@
         "tag": "magicResist",
         "weight": 0.5,
         "why": "keeps you alive against magic damage"
-      },
-      {
-        "tag": "sustain",
-        "weight": 0.45,
-        "why": "fuels the healing on Last Rites (Q) through extended fights"
       }
     ],
     "notes": "a bruiser that wants a blend of damage and durability for extended fights, with built-in healing, strong mobility and crowd control",
@@ -13848,6 +14378,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Zoomies (E) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Prowling Projectile (Q) and Zoomies (E)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -13909,13 +14449,18 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.7,
+        "weight": 0.8,
         "why": "scales your physical damage on The Darkin Glaive (Q) and Dreaded Return (W)"
       },
       {
         "tag": "health",
         "weight": 0.7,
         "why": "gives the durability to survive fights and keep dealing damage"
+      },
+      {
+        "tag": "armorPen",
+        "weight": 0.65,
+        "why": "helps your physical damage cut through armor"
       },
       {
         "tag": "abilityHaste",
@@ -14020,6 +14565,11 @@
         "tag": "sustain",
         "weight": 0.45,
         "why": "fuels the healing on Cell Division (P) through extended fights"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.4,
+        "why": "powers your magic damage on Stretching Strikes (Q) and Unstable Matter (W)"
       }
     ],
     "notes": "a frontline tank that wants health and resistances to engage, peel and survive, with built-in healing, strong mobility and crowd control",
@@ -14080,23 +14630,23 @@
     "wants": [
       {
         "tag": "bonusAD",
-        "weight": 0.85,
+        "weight": 0.9,
         "why": "scales your physical damage on Razor Shuriken (Q) and Shadow Slash (E)"
       },
       {
         "tag": "armorPen",
-        "weight": 0.8,
+        "weight": 0.65,
         "why": "helps your physical damage cut through armor"
       },
       {
-        "tag": "health",
+        "tag": "abilityHaste",
         "weight": 0.55,
-        "why": "gives the durability to survive fights and keep dealing damage"
+        "why": "shortens your cooldowns so you cast Shadow Slash (E) far more often"
       },
       {
-        "tag": "abilityHaste",
-        "weight": 0.5,
-        "why": "shortens your cooldowns so you cast Shadow Slash (E) far more often"
+        "tag": "health",
+        "weight": 0.25,
+        "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
     "notes": "a burst assassin that wants penetration and ability haste to delete priority targets, with crowd control",
@@ -14253,17 +14803,17 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Bouncing Bomb (Q) far more often"
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -14338,6 +14888,16 @@
         "tag": "moveSpeed",
         "weight": 0.5,
         "why": "feeds Time Warp (E) and helps you stick to targets"
+      },
+      {
+        "tag": "magicPen",
+        "weight": 0.4,
+        "why": "helps your magic damage cut through resistances"
+      },
+      {
+        "tag": "ap",
+        "weight": 0.35,
+        "why": "powers your magic damage on Time Bomb (Q)"
       }
     ],
     "notes": "a support that wants ability haste and utility to enable its team, with built-in healing, strong mobility and crowd control",
@@ -14405,12 +14965,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Spell Thief (W) far more often"
       },
       {
@@ -14430,7 +14990,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],
@@ -14496,12 +15056,12 @@
       },
       {
         "tag": "magicPen",
-        "weight": 0.7,
+        "weight": 0.65,
         "why": "helps your magic damage cut through resistances"
       },
       {
         "tag": "abilityHaste",
-        "weight": 0.6,
+        "weight": 0.55,
         "why": "shortens your cooldowns so you cast Deadly Spines (Q) far more often"
       },
       {
@@ -14516,7 +15076,7 @@
       },
       {
         "tag": "health",
-        "weight": 0.3,
+        "weight": 0.25,
         "why": "gives the durability to survive fights and keep dealing damage"
       }
     ],

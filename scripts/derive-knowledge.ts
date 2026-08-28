@@ -47,53 +47,19 @@ type AbilityDamage = NonNullable<Ability["damageType"]>;
 
 interface ClassPrior {
   identity: Identity;
-  damageType: DamageType;
-  wants: { tag: ScaleTag; weight: number }[];
+  damageType: DamageType; // fallback only when a champion's spells are ambiguous
 }
 
+// Identity + a fallback damage type per primary class. The offensive stats a
+// champion actually wants are chosen from its DERIVED damage type (baseWants),
+// so AP assassins/fighters aren't forced into an AD profile.
 const CLASS_PRIORS: Record<string, ClassPrior> = {
-  Marksman: {
-    identity: "carry", damageType: "physical",
-    wants: [
-      { tag: "attackSpeed", weight: 0.85 }, { tag: "crit", weight: 0.85 },
-      { tag: "bonusAD", weight: 0.7 }, { tag: "lifesteal", weight: 0.4 },
-    ],
-  },
-  Mage: {
-    identity: "burst", damageType: "magic",
-    wants: [
-      { tag: "ap", weight: 0.9 }, { tag: "magicPen", weight: 0.7 },
-      { tag: "abilityHaste", weight: 0.6 }, { tag: "health", weight: 0.3 },
-    ],
-  },
-  Assassin: {
-    identity: "burst", damageType: "physical",
-    wants: [
-      { tag: "bonusAD", weight: 0.85 }, { tag: "armorPen", weight: 0.8 },
-      { tag: "abilityHaste", weight: 0.5 },
-    ],
-  },
-  Tank: {
-    identity: "tank", damageType: "mixed",
-    wants: [
-      { tag: "health", weight: 0.9 }, { tag: "armor", weight: 0.7 },
-      { tag: "magicResist", weight: 0.7 }, { tag: "abilityHaste", weight: 0.4 },
-    ],
-  },
-  Support: {
-    identity: "enchanter", damageType: "magic",
-    wants: [
-      { tag: "abilityHaste", weight: 0.7 }, { tag: "health", weight: 0.5 },
-      { tag: "sustain", weight: 0.5 },
-    ],
-  },
-  Fighter: {
-    identity: "bruiser", damageType: "physical",
-    wants: [
-      { tag: "bonusAD", weight: 0.7 }, { tag: "health", weight: 0.7 },
-      { tag: "abilityHaste", weight: 0.45 }, { tag: "armor", weight: 0.4 },
-    ],
-  },
+  Marksman: { identity: "carry", damageType: "physical" },
+  Mage: { identity: "burst", damageType: "magic" },
+  Assassin: { identity: "burst", damageType: "physical" },
+  Tank: { identity: "tank", damageType: "mixed" },
+  Support: { identity: "enchanter", damageType: "magic" },
+  Fighter: { identity: "bruiser", damageType: "physical" },
 };
 
 
@@ -232,7 +198,7 @@ function primaryClass(tags: string[]): string {
   return "Fighter";
 }
 
-function deriveDamageType(prior: ClassPrior, abilities: DerivedAbility[]): DamageType {
+function deriveDamageType(prior: ClassPrior, abilities: DerivedAbility[], tags: string[]): DamageType {
   const dmgAbils = abilities.filter((a) => a.slot !== "P" && a.damageType && a.damageType !== "none");
   let ad = 0, ap = 0;
   for (const a of dmgAbils) {
@@ -242,6 +208,9 @@ function deriveDamageType(prior: ClassPrior, abilities: DerivedAbility[]): Damag
   }
   if (ad > 0 && ap === 0) return "physical";
   if (ap > 0 && ad === 0) return "magic";
+  // A Mage secondary tag is a strong ability-power signal for hybrids: champions
+  // like Katarina and Kayle are tagged Assassin/Fighter + Mage but scale with AP.
+  if (tags.includes("Mage")) return "magic";
   if (ad > 0 && ap > 0) return prior.damageType === "mixed" ? "mixed" : prior.damageType;
   return prior.damageType;
 }
@@ -308,22 +277,63 @@ function whyFor(tag: ScaleTag, ctx: Ctx): string {
   }
 }
 
-function deriveWants(prior: ClassPrior, d: RawDetails, abilities: DerivedAbility[], ctx: Ctx): Want[] {
+// Offensive wants follow the champion's DERIVED damage type (from its spells),
+// not just the class tag -- so AP assassins (Akali, Ekko) and AP fighters
+// (Mordekaiser) ask for ability power, not attack damage. Durability/utility
+// come from the identity; tanks and enchanters build offense last.
+function baseWants(damageType: DamageType, identity: Identity): { tag: ScaleTag; weight: number }[] {
+  const w: { tag: ScaleTag; weight: number }[] = [];
+  const offense = identity === "tank" ? 0.4 : identity === "enchanter" ? 0.35 : identity === "bruiser" ? 0.8 : 0.9;
+  const pen = offense >= 0.8 ? 0.65 : 0.4;
+
+  if (damageType === "physical" && identity === "carry") {
+    w.push({ tag: "attackSpeed", weight: 0.85 }, { tag: "crit", weight: 0.85 }, { tag: "bonusAD", weight: 0.7 });
+  } else if (damageType === "physical") {
+    w.push({ tag: "bonusAD", weight: offense }, { tag: "armorPen", weight: pen });
+  } else if (damageType === "magic") {
+    w.push({ tag: "ap", weight: offense }, { tag: "magicPen", weight: pen });
+  } else {
+    w.push({ tag: "bonusAD", weight: offense * 0.75 }, { tag: "ap", weight: offense * 0.75 });
+  }
+
+  switch (identity) {
+    case "carry":
+      w.push({ tag: "lifesteal", weight: 0.4 });
+      break;
+    case "burst":
+      w.push({ tag: "abilityHaste", weight: 0.55 }, { tag: "health", weight: 0.25 });
+      break;
+    case "bruiser":
+      w.push({ tag: "health", weight: 0.7 }, { tag: "abilityHaste", weight: 0.45 }, { tag: "armor", weight: 0.4 });
+      break;
+    case "tank":
+      w.push({ tag: "health", weight: 0.9 }, { tag: "armor", weight: 0.7 }, { tag: "magicResist", weight: 0.7 }, { tag: "abilityHaste", weight: 0.4 });
+      break;
+    case "enchanter":
+      w.push({ tag: "abilityHaste", weight: 0.7 }, { tag: "health", weight: 0.5 }, { tag: "sustain", weight: 0.5 });
+      break;
+  }
+  return w;
+}
+
+function deriveWants(prior: ClassPrior, d: RawDetails, abilities: DerivedAbility[], ctx: Ctx, damageType: DamageType): Want[] {
   const weights = new Map<ScaleTag, number>();
   const bump = (tag: ScaleTag, w: number) => {
     weights.set(tag, Math.max(weights.get(tag) ?? 0, w));
   };
 
-  for (const w of prior.wants) bump(w.tag, w.weight);
+  // Offensive core follows the champion's actual (derived) damage type.
+  for (const w of baseWants(damageType, prior.identity)) bump(w.tag, w.weight);
 
   const st = d.stats;
   const melee = st.attackrange > 0 && st.attackrange <= 350;
-  // Durability signal. Modern ranged carries also carry high flat health
-  // growth, so only treat health as a want for melee bruisers or Tank-tagged
-  // champions -- otherwise squishies wrongly ask for health.
+  const durable = prior.identity === "bruiser" || prior.identity === "tank";
+  // Durability signal. Only frontline identities (bruiser/tank) or Tank-tagged
+  // champions treat health as a want -- ranged carries and melee assassins are
+  // squishy despite high flat health growth, so they shouldn't ask for it.
   if (d.tags.includes("Tank")) bump("health", 0.75);
-  else if (melee && st.hpperlevel >= 100) bump("health", 0.7);
-  else if (melee && st.hpperlevel >= 85) bump("health", 0.55);
+  else if (durable && melee && st.hpperlevel >= 95) bump("health", 0.7);
+  else if (durable && st.hpperlevel >= 105) bump("health", 0.55);
 
   // Kit-derived signals.
   const anyHeal = abilities.some((a) => a.util.heal);
@@ -366,8 +376,8 @@ function deriveChampion(id: string, name: string, d: RawDetails): ChampionKnowle
     .sort((a, b) => a.cooldown - b.cooldown)[0];
 
   const ctx: Ctx = { name, abilities, phys, magic, healAbil, speedAbil, spamAbil };
-  const damageType = deriveDamageType(prior, abilities);
-  const wants = deriveWants(prior, d, abilities, ctx);
+  const damageType = deriveDamageType(prior, abilities, d.tags);
+  const wants = deriveWants(prior, d, abilities, ctx, damageType);
 
   return {
     championId: id,
