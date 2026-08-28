@@ -15,7 +15,16 @@ export function getDb(): Db {
   if (db) return db;
   const url = process.env.DATABASE_URL;
   if (!url) throw new Error("DATABASE_URL is not set");
-  client = postgres(url, { max: 5 });
+  // Neon's pooled endpoint (PgBouncer, transaction mode) requires prepared
+  // statements OFF and a small per-instance pool, since many serverless
+  // instances each hold their own connections. Detected from the "-pooler"
+  // host; direct/local connections keep postgres.js defaults. Both overridable.
+  const pooled = /pooler/i.test(url);
+  client = postgres(url, {
+    max: Number(process.env.DB_POOL_MAX ?? (pooled ? 1 : 5)),
+    prepare: process.env.DB_PREPARE ? process.env.DB_PREPARE === "true" : !pooled,
+    idle_timeout: pooled ? 20 : undefined,
+  });
   db = drizzle(client, { schema });
   return db;
 }
